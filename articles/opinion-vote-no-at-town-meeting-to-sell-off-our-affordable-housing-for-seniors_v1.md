@@ -1,0 +1,29 @@
+# OPINION: Vote No at Town Meeting to Sell Off Our Affordable Housing for Seniors: The Lincoln School Apartments - Hingham Anchor
+
+- **URL:** https://www.hinghamanchor.com/opinion-vote-no-at-town-meeting-to-sell-off-our-affordable-housing-for-seniors-the-lincoln-school-apartments/
+- **Date:** 
+- **Source:** The Hingham Anchor
+
+---
+
+April 11, 2026 By Betsy Hernberg
+
+The Town-owned Lincoln School Apartments has served as affordable housing for Hingham seniors since 2009. The development, in a quiet residential neighborhood at 86 Central Street yet within easy walking to the Square for those who may no longer drive or own cars, has proven to be one of Hingham’s best success stories. This is true not only from a humanitarian viewpoint but also in terms of profitability. While allowing older Hinghamites to live with dignity, the property is currently generating $680,000 per year in operating cash flow and now holds more than $1.3 million in reserves. Beginning in 2028, that cash flow is projected to increase to more than $1 million annually. That’s because the Town will finally finish paying off the building and own it outright.
+
+Yet it is at this very juncture, when we will finally be free of debt on the property, that the Select Board and the Advisory Committee are recommending we sell the Lincoln School Apartments to an outside developer. How much money would that bring to Town coffers? No one knows. An appraisal has not been conducted. We are being told we need to sell off an asset to raise needed capital but have been given no indication of the financial relief such a sale would bring. Moreover, if there is a sale, the Town would lose control in a number of critical ways. A developer could work to subject the property to changes the Town did not bargain for. For instance, the warrant article states that the Town would seek a deed restriction limiting the lease of units to the elderly and the disabled. But the wording of deeds and their applications are tricky. The law in the Commonwealth states that deed restrictions end after 30 years unless specific language is included. Looking ahead, we have no idea how a deed restriction would be worded to protect its provisions in perpetuity — or how the purchaser of the project would interpret the law to begin with. Laws are often not perceived or applied in a straightforward way. Furthermore, the warrant article states that for the construction of new apartments, the footprint on the land would increase only from its current 17 percent to 30 percent, making it seem like most of the green space around the apartments would remain untouched. That is not true. Between the new construction and the addition of new parking spaces required to accommodate the new renters, it would mean that between 75 and 80 percent of the land would be hardscaped. That lovely green space to the left of the building at the corner of Central and Elm — gone.
+
+Similarly, historical considerations could all be legally bypassed. We’d have no control over the look and feel of a housing complex located right next to a historic district and just a few minutes’ walk from Hingham Square. Nor would we have any ability to vet the potential renters in need of affordable housing or the number of people per apartment. Currently, it’s generally one person per unit. Thus, such a change in housing designation would fundamentally alter the character as well as the purpose of the development.
+
+None of this is to say that the Lincoln School Apartments don’t require significant investments to maintain the infrastructure. They do. The building needs a new roof, HVAC, masonry repairs, and other costly improvements — improvements that can cost more than the revenue it will be generating. But given its strong financial performance, the Town has viable alternatives to selling it, such as hiring a building manager and bonding (taking out loans for) needed capital improvements rather than selling off one of its jewels.
+
+Such a possibility becomes particularly attractive in light of the fact that once the property is sold, we will never have the opportunity to revisit the decision. The financial benefits, land use decisions, and long-term stewardship will forever rest with a private owner, who may at any point sell to another private owner with designs of their own. It is like selling off your family jewels to pay the bills. Once you sell them, you can never get them back. And they only pay the bills once; it is not a sustainable way to generate revenue.
+
+Article 23 in the Warrant that the Town has sent out does not explain any of this. It does not explain that the Town, if it chooses, could sell the property below market value to make a deal with a developer who wants to take on costly renovations. It does not address the fact that the Armory next door to the Lincoln School Apartments will become available to the Town in the coming years and provide us with more options to house Hinghamites in need. The bottom line is that the Town wants to make a lot of decisions regarding the sale of the Lincoln School Apartments — including how much we would net from that sale and how new construction would alter our streetscape — after our vote.
+
+For these reasons, we should not give the Town permission to sell the Lincoln School Apartments. It is an asset we purchased for the purpose of housing seniors who need some financial help 17 years ago, and it has worked out beautifully. Let’s keep this jewel.
+
+Vote NO on article 23 to sell 86 Central Street at Town Meeting.
+
+For more information, please contact:
+
+hinghamforlsa@gmail.com
