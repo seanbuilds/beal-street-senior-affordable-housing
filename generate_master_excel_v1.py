@@ -84,10 +84,16 @@ for root, dirs, files in os.walk('.'):
             summary = "Comprehensive 12-section investigation of the Center for Active Living at Bare Cove Park Drive and its April 27, 2026 Town Meeting defeat (510 Yes to 470 No; failed 2/3 debt supermajority)."
             v_status = "Complete Analytical Report (Verified)"
         elif "Town_vs_HHA_Legal_Chronology" in f:
-            auth = "Hingham Board of Selectmen / HHA / Mass. DHCD"
-            law = "M.G.L. c. 184A, § 3; M.G.L. c. 121B, § 34; Book 09097 Pg 158; Book 51379 Pg 244"
-            summary = "100% primary source legal record citing the 1989 deed, 2001 MOU, Feb 26, 2019 Select Board litigation vote (3-0), state DHCD veto letters, and Sept 7, 2021 HHA rescission vote. Zero news articles."
-            v_status = "Primary Legal Record (100% Verified)"
+            if "_v2" in f:
+                auth = "Primary Municipal Records / Mass. Registry of Deeds"
+                law = "Historical M.G.L. c. 184A, § 3; M.G.L. c. 184, § 23; M.G.L. c. 121B, § 34; Book 09097 Pg 158; Book 51379 Pg 244"
+                summary = "Preliminary primary-source research chronology and record index; strictly neutral factual reporting; segregates verified facts, factual inferences, and open legal questions; includes missing documents inventory and disclaimer. Not a title opinion."
+                v_status = "Neutral Primary Source Research Index & Inventory (Verified)"
+            else:
+                auth = "Hingham Board of Selectmen / HHA / Mass. DHCD"
+                law = "M.G.L. c. 184A, § 3; M.G.L. c. 121B, § 34; Book 09097 Pg 158; Book 51379 Pg 244"
+                summary = "Primary source legal chronology detailing the 1989 deed, 2001 MOU, Feb 26, 2019 Select Board litigation vote (3-0), state DHCD letters, and Sept 7, 2021 HHA rescission vote."
+                v_status = "Prior Version (Superseded by v2)"
         elif "Fact_Sheet_and_Briefing" in f:
             auth = "Hingham Housing Authority / Bohler / Control Point"
             law = "M.G.L. c. 121B; M.G.L. c. 40B; Plymouth Registry Plan 100 of 2001"
@@ -305,16 +311,16 @@ ws_dash['B9'].font = card_title_font
 
 meta_rows = [
     ("Subject Real Property", "100 Beal Street, Hingham, MA 02043 (Assessor Map 58, Block 0, Lot 23; School Tract II)"),
-    ("Fee Simple Property Owner", "Hingham Housing Authority (Independent public body corporate and politic under M.G.L. c. 121B)"),
+    ("Fee Simple Property Owner", "Hingham Housing Authority (Record fee owner under 1989 deed; subject to recorded encumbrances and title examination)"),
     ("Executive Leadership", "James Marathas, Executive Director; Colleen M. Whalen, Assistant Executive Director"),
     ("Designated Developer Partner", "Peabody Properties, Inc. / Affordable Housing Services Collaborative, Inc. (AHSC Peabody Developers LLC)"),
     ("Proposed Development Program", "68-Unit 100% Affordable Senior Rental Community (Age 62+; 30%, 50%, 60% AMI); 3-Story Low Profile"),
-    ("Disposition Structure", "99-Year Triple-Net (NNN) Ground Lease of 8.6-Acre Lot B with 100% building reversion to HHA"),
+    ("Disposition Structure", "Proposed 99-Year Triple-Net (NNN) Ground Lease of 8.6-Acre Lot B with reversion to HHA"),
     ("Net Buildable Upland Area", "~6.50 Acres outside confirmed wetland resource setbacks and riverfront buffer zones"),
     ("Original 1989 Fee Deed", "Plymouth County Registry of Deeds, Book 09097, Pages 158–161 (Doc #29758; March 7, 1989)"),
-    ("Statutory Reverter Status", "30-Year reverter expired by operation of law on March 7, 2019 under M.G.L. c. 184A, § 3; Fee Simple Absolute"),
+    ("Statutory Reverter Status", "1989 deed 30-year right of entry clause; statutory interpretation subject to historical c. 184A / c. 184, § 23 review by title counsel"),
     ("State Transfer Restriction", "Notice of Statutory Transfer Restriction recorded July 18, 2019 at Book 51379, Page 244 (Doc #55967)"),
-    ("Town Litigation Vote (Impasse)", "Select Board Executive Session Feb 26, 2019: Voted 3–0 to sue HHA to enforce 2001 MOU (9 days before reverter lapse)"),
+    ("Town Litigation Vote", "Select Board Executive Session Feb 26, 2019: Voted 3–0 to authorize litigation regarding 2001 MOU (9 days before 30-yr deed anniversary)"),
     ("HHA Rescission Vote", "Sept 7, 2021: HHA Board voted 4–0 to formally rescind the June 5, 2019 transfer motion, confirming HHA ownership"),
     ("Order of Resource Area Delineation", "Recorded Dec 10, 2024 at Book 59527, Page 273 (MassDEP File No. 034-1509; 155+ wetland flags confirmed)"),
     ("Center for Active Living (CAL)", "Municipal daytime center off Bare Cove Park Drive; FAILED 2/3 debt vote at April 27, 2026 ATM (Art. 12: 510–470)"),

@@ -1,0 +1,571 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Municipal Housing, Title Records, and Archival Governance Schema",
+  "description": "Formal schema defining data architecture, legal provenance, environmental adjudication, proof status, and inventory structure for municipal affordable housing and public land records. Version 2 incorporates strict evidentiary tiering, historical statutory review protocols, and disclaimer requirements.",
+  "version": "2.0.0",
+  "type": "object",
+  "required": [
+    "project_metadata",
+    "evidentiary_framework",
+    "title_and_statutory_chain",
+    "environmental_and_permitting",
+    "missing_documents_inventory",
+    "repository_architecture",
+    "governance_and_monitoring"
+  ],
+  "properties": {
+    "project_metadata": {
+      "type": "object",
+      "description": "Core descriptive and real property parameters of the municipal development.",
+      "required": [
+        "project_name",
+        "subject_property",
+        "record_fee_owner",
+        "designated_developer",
+        "proposed_disposition_structure",
+        "development_program"
+      ],
+      "properties": {
+        "project_name": {
+          "type": "string",
+          "default": "100 Beal Street Senior Affordable Housing"
+        },
+        "tract_identifier": {
+          "type": "string",
+          "default": "School Tract II (Plan Book 17, Page 508)"
+        },
+        "subject_property": {
+          "type": "object",
+          "required": [
+            "street_address",
+            "municipality",
+            "state",
+            "postal_code",
+            "assessor_parcel_id",
+            "acreage_breakdown"
+          ],
+          "properties": {
+            "street_address": {
+              "type": "string",
+              "default": "100 Beal Street"
+            },
+            "municipality": {
+              "type": "string",
+              "default": "Hingham"
+            },
+            "state": {
+              "type": "string",
+              "default": "MA"
+            },
+            "postal_code": {
+              "type": "string",
+              "default": "02043"
+            },
+            "assessor_parcel_id": {
+              "type": "string",
+              "default": "Map 58, Block 0, Lot 23"
+            },
+            "acreage_breakdown": {
+              "type": "object",
+              "required": [
+                "total_parent_parcel",
+                "lot_b_disposition_area",
+                "net_buildable_upland",
+                "lot_a_preserved",
+                "lot_c_buffer"
+              ],
+              "properties": {
+                "total_parent_parcel": {
+                  "type": "number",
+                  "default": 15.014
+                },
+                "lot_b_disposition_area": {
+                  "type": "number",
+                  "default": 8.6
+                },
+                "net_buildable_upland": {
+                  "type": "number",
+                  "default": 6.5
+                },
+                "lot_a_preserved": {
+                  "type": "number",
+                  "default": 2.4
+                },
+                "lot_c_buffer": {
+                  "type": "number",
+                  "default": 3.55
+                }
+              }
+            }
+          }
+        },
+        "record_fee_owner": {
+          "type": "object",
+          "required": [
+            "legal_entity_name",
+            "statutory_entity_type",
+            "enabling_statute",
+            "title_qualification"
+          ],
+          "properties": {
+            "legal_entity_name": {
+              "type": "string",
+              "default": "Hingham Housing Authority (HHA)"
+            },
+            "statutory_entity_type": {
+              "type": "string",
+              "default": "Independent public body corporate and politic"
+            },
+            "enabling_statute": {
+              "type": "string",
+              "default": "M.G.L. c. 121B, \u00a7 3"
+            },
+            "title_qualification": {
+              "type": "string",
+              "default": "Record fee owner under 1989 deed; subject to recorded encumbrances, state supervisory restrictions, and full title examination"
+            }
+          }
+        },
+        "designated_developer": {
+          "type": "object",
+          "required": [
+            "lead_developer",
+            "joint_venture_partner",
+            "procurement_designation_date",
+            "procurement_statute"
+          ],
+          "properties": {
+            "lead_developer": {
+              "type": "string",
+              "default": "Peabody Properties, Inc."
+            },
+            "joint_venture_partner": {
+              "type": "string",
+              "default": "Affordable Housing Services Collaborative, Inc. (AHSC)"
+            },
+            "procurement_designation_date": {
+              "type": "string",
+              "format": "date",
+              "default": "2025-08-12"
+            },
+            "procurement_statute": {
+              "type": "string",
+              "default": "M.G.L. c. 30B, \u00a7 16"
+            }
+          }
+        },
+        "proposed_disposition_structure": {
+          "type": "object",
+          "required": [
+            "instrument_type",
+            "lease_term_years",
+            "minimum_upfront_payment",
+            "reversion_terms"
+          ],
+          "properties": {
+            "instrument_type": {
+              "type": "string",
+              "default": "Proposed Triple-Net (NNN) Ground Lease"
+            },
+            "lease_term_years": {
+              "type": "integer",
+              "default": 99
+            },
+            "minimum_upfront_payment": {
+              "type": "number",
+              "default": 500000.0
+            },
+            "reversion_terms": {
+              "type": "string",
+              "default": "100% reversion of improvements to HHA upon expiration"
+            }
+          }
+        },
+        "development_program": {
+          "type": "object",
+          "required": [
+            "unit_count",
+            "occupancy_restriction",
+            "affordability_tiering"
+          ],
+          "properties": {
+            "unit_count": {
+              "type": "integer",
+              "default": 68
+            },
+            "occupancy_restriction": {
+              "type": "string",
+              "default": "Senior rental housing restricted to individuals aged 62 and older"
+            },
+            "affordability_tiering": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": [
+                "30% Area Median Income (AMI)",
+                "50% AMI",
+                "60% AMI"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "evidentiary_framework": {
+      "type": "object",
+      "description": "Classification standards separating documented proof from inferences and unresolved legal determinations.",
+      "required": [
+        "tier_1_verified_facts",
+        "tier_2_factual_inferences",
+        "tier_3_open_legal_questions",
+        "mandatory_limitation_statement"
+      ],
+      "properties": {
+        "tier_1_verified_facts": {
+          "type": "string",
+          "default": "Facts supported by verbatim quotations and page/book/doc pinpoints from authenticated primary public records."
+        },
+        "tier_2_factual_inferences": {
+          "type": "string",
+          "default": "Contextual conclusions regarding timing or procedural sequence; must be explicitly labeled [Factual Inference]."
+        },
+        "tier_3_open_legal_questions": {
+          "type": "string",
+          "default": "Substantive legal interpretations regarding title vesting, condition fulfillment, or statutory preemption; must be labeled [Open / Disputed Legal Question] and qualified."
+        },
+        "mandatory_limitation_statement": {
+          "type": "string",
+          "default": "This record reports public documents and does not constitute a title opinion or legal determination."
+        }
+      }
+    },
+    "title_and_statutory_chain": {
+      "type": "object",
+      "description": "Documented primary source timeline of title instruments, municipal votes, and state agency actions.",
+      "required": [
+        "deed_1989",
+        "statutory_thirty_year_clause",
+        "select_board_litigation_vote",
+        "state_transfer_restriction",
+        "hha_rescission_vote"
+      ],
+      "properties": {
+        "deed_1989": {
+          "type": "object",
+          "required": [
+            "execution_date",
+            "recording_date",
+            "registry_citation",
+            "consideration_paid",
+            "condition_clause"
+          ],
+          "properties": {
+            "execution_date": {
+              "type": "string",
+              "format": "date",
+              "default": "1989-03-07"
+            },
+            "recording_date": {
+              "type": "string",
+              "format": "date",
+              "default": "1989-04-21"
+            },
+            "registry_citation": {
+              "type": "string",
+              "default": "Plymouth County Registry of Deeds, Book 09097, Pages 158\u2013161 (Doc #29758)"
+            },
+            "consideration_paid": {
+              "type": "number",
+              "default": 45751.0
+            },
+            "condition_clause": {
+              "type": "string",
+              "default": "Restricted to adolescent residential educational facility operated through HHA by South Shore Educational Collaborative"
+            }
+          }
+        },
+        "statutory_thirty_year_clause": {
+          "type": "object",
+          "required": [
+            "clause_text",
+            "historical_statutory_context",
+            "status_of_proof"
+          ],
+          "properties": {
+            "clause_text": {
+              "type": "string",
+              "default": "Right of entry terminates after thirty years from date hereof as provided in M.G.L. c. 184A, \u00a7 3"
+            },
+            "historical_statutory_context": {
+              "type": "string",
+              "default": "Governed by historical Chapter 184A in effect on March 7, 1989; Sections 1-4 repealed by St. 2008 c. 521; general 30-year limit in M.G.L. c. 184, \u00a7 23"
+            },
+            "status_of_proof": {
+              "type": "string",
+              "default": "Open Legal Question; requires formal Massachusetts title examination and historical statutory verification"
+            }
+          }
+        },
+        "select_board_litigation_vote": {
+          "type": "object",
+          "required": [
+            "meeting_date",
+            "session_type",
+            "motion_verbatim",
+            "vote_tally",
+            "source_pinpoint",
+            "status_of_proof"
+          ],
+          "properties": {
+            "meeting_date": {
+              "type": "string",
+              "format": "date",
+              "default": "2019-02-26"
+            },
+            "session_type": {
+              "type": "string",
+              "default": "Executive Session convened 6:45 PM; Open Session vote 7:00 PM"
+            },
+            "motion_verbatim": {
+              "type": "string",
+              "default": "Mr. Healey made a motion to file litigation regarding enforcement of agreement as to 100 Beal Street, Hingham, MA. Ms. Johnson seconded. All were in favor, 3-0."
+            },
+            "vote_tally": {
+              "type": "string",
+              "default": "3\u20130 Unanimous"
+            },
+            "source_pinpoint": {
+              "type": "string",
+              "default": "Hingham Board of Selectmen Minutes, Feb. 26, 2019, Page 1"
+            },
+            "status_of_proof": {
+              "type": "string",
+              "default": "Official Municipal Minutes (Litigation filing unverified pending court docket search)"
+            }
+          }
+        },
+        "state_transfer_restriction": {
+          "type": "object",
+          "required": [
+            "recording_date",
+            "registry_citation",
+            "state_agency",
+            "statutory_authority",
+            "status_of_proof"
+          ],
+          "properties": {
+            "recording_date": {
+              "type": "string",
+              "format": "date",
+              "default": "2019-07-18"
+            },
+            "registry_citation": {
+              "type": "string",
+              "default": "Plymouth County Registry of Deeds, Book 51379, Pages 244\u2013248 (Doc #55967)"
+            },
+            "state_agency": {
+              "type": "string",
+              "default": "Massachusetts Department of Housing and Community Development (DHCD / EOHLC)"
+            },
+            "statutory_authority": {
+              "type": "string",
+              "default": "M.G.L. c. 121B, \u00a7 34"
+            },
+            "status_of_proof": {
+              "type": "string",
+              "default": "Recorded Instrument; operative legal scope subject to terms of recorded notice"
+            }
+          }
+        },
+        "hha_rescission_vote": {
+          "type": "object",
+          "required": [
+            "meeting_date",
+            "motion_verbatim_summary",
+            "vote_tally",
+            "source_pinpoint",
+            "status_of_proof"
+          ],
+          "properties": {
+            "meeting_date": {
+              "type": "string",
+              "format": "date",
+              "default": "2021-09-07"
+            },
+            "motion_verbatim_summary": {
+              "type": "string",
+              "default": "Motion by Commissioner O'Meara, seconded by Commissioner Lauter, to rescind the June 5, 2019 motion transferring 19 acres to the Town; land remains under HHA ownership"
+            },
+            "vote_tally": {
+              "type": "string",
+              "default": "4\u20130 Unanimous"
+            },
+            "source_pinpoint": {
+              "type": "string",
+              "default": "HHA Regular Board Meeting Minutes, Sept. 7, 2021, Pages 3\u20134"
+            },
+            "status_of_proof": {
+              "type": "string",
+              "default": "Official Municipal Minutes"
+            }
+          }
+        }
+      }
+    },
+    "environmental_and_permitting": {
+      "type": "object",
+      "required": [
+        "massdep_file_number",
+        "recorded_orad",
+        "wetlands_envelope"
+      ],
+      "properties": {
+        "massdep_file_number": {
+          "type": "string",
+          "default": "034-1509"
+        },
+        "recorded_orad": {
+          "type": "object",
+          "required": [
+            "issuance_date",
+            "recording_date",
+            "registry_citation",
+            "flags_verified"
+          ],
+          "properties": {
+            "issuance_date": {
+              "type": "string",
+              "format": "date",
+              "default": "2024-11-25"
+            },
+            "recording_date": {
+              "type": "string",
+              "format": "date",
+              "default": "2024-12-10"
+            },
+            "registry_citation": {
+              "type": "string",
+              "default": "Plymouth County Registry of Deeds, Book 59527, Pages 273\u2013280 (Doc #78968)"
+            },
+            "flags_verified": {
+              "type": "integer",
+              "default": 155
+            }
+          }
+        },
+        "wetlands_envelope": {
+          "type": "string",
+          "default": "Tucker's Swamp / Hockley Run sub-basin within the Weymouth Back River Area of Critical Environmental Concern (ACEC)"
+        }
+      }
+    },
+    "missing_documents_inventory": {
+      "type": "object",
+      "description": "Mandatory catalog of cited records that remain unobtained or require independent primary verification.",
+      "required": [
+        "unobtained_records",
+        "audit_protocol"
+      ],
+      "properties": {
+        "unobtained_records": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "record_name",
+              "relevance",
+              "status"
+            ],
+            "properties": {
+              "record_name": {
+                "type": "string"
+              },
+              "relevance": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              }
+            }
+          },
+          "default": [
+            {
+              "record_name": "Executed 2001 MOU",
+              "relevance": "Underlying terms of bunker remediation agreement and contemplated re-subdivision",
+              "status": "Unobtained"
+            },
+            {
+              "record_name": "Court Litigation Docket",
+              "relevance": "Verification of whether a formal complaint was served or filed following Feb 26, 2019 vote",
+              "status": "Unverified"
+            },
+            {
+              "record_name": "DHCD Letters (Apr 19 & Jun 26, 2019)",
+              "relevance": "Full text of state supervisory correspondence articulating c. 121B, \u00a7 34 requirements",
+              "status": "Unobtained (cited in minutes)"
+            },
+            {
+              "record_name": "Complete c. 30B Compliance File",
+              "relevance": "Independent property appraisal, Central Register notice, and evaluation committee scores",
+              "status": "Partially Obtained"
+            },
+            {
+              "record_name": "Executed LDA & Ground Lease",
+              "relevance": "Final binding contracts and development covenants between HHA and AHSC Peabody",
+              "status": "Unobtained / Unrecorded"
+            }
+          ]
+        },
+        "audit_protocol": {
+          "type": "string",
+          "default": "Regular surveillance via weekly monitoring script and Registry grantor/grantee title search"
+        }
+      }
+    },
+    "repository_architecture": {
+      "type": "object",
+      "required": [
+        "downloaded_sources_dir",
+        "agent_created_deliverables_dir",
+        "zero_scrape_mandate"
+      ],
+      "properties": {
+        "downloaded_sources_dir": {
+          "type": "string",
+          "default": "downloaded_sources/ (strictly authentic, unaltered public records)"
+        },
+        "agent_created_deliverables_dir": {
+          "type": "string",
+          "default": "agent_created_deliverables/ (analytical syntheses, transcriptions, and reports)"
+        },
+        "zero_scrape_mandate": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "governance_and_monitoring": {
+      "type": "object",
+      "required": [
+        "versioning_rule",
+        "v5_archival_threshold",
+        "monitor_schedule"
+      ],
+      "properties": {
+        "versioning_rule": {
+          "type": "string",
+          "default": "All created or revised files must increment version suffix (_v1, _v2, etc.)"
+        },
+        "v5_archival_threshold": {
+          "type": "string",
+          "default": "When version > v5 is created, move versions older than two most recent to ./archive/"
+        },
+        "monitor_schedule": {
+          "type": "string",
+          "default": "Weekly automated execution (Cron: 0 9 * * 1)"
+        }
+      }
+    }
+  }
+}
