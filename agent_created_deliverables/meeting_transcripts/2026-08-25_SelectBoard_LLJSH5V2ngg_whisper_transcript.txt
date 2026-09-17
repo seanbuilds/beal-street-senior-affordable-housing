@@ -1,0 +1,572 @@
+Meeting ID: LLJSH5V2ngg
+Source file: LLJSH5V2ngg.mp3
+Model: faster-whisper small.en (device=cpu, compute_type=int8)
+Date note: Aug 25, 2026 Select Board
+Audio duration: 9036.840s ([02:30:36])
+Note: transcribed in 3 chunks then stitched
+Chunk absolute starts (ffmpeg -ss): 0.000s, 3010.280s, 6022.560s
+
+--- Transcript ---
+
+[00:00:00] Download the MyHangam app today and report issues and get information on town government with ease, available on the App Store and Google Play. You can submit service requests or gain information with just a few taps on your phone. Using the MyHangam app puts immediate access to town resources in the palm of your hand, including calendars of meetings and events, agendas for upcoming meetings,
+[00:00:26] building permit filing options, online bill payment options, and info about our boards, committees, departments, and services. For more information, please scan the QR code on your screen.
+[00:01:06] Good evening. This meeting of the Select Board is called to order on August 25, 2026 at 6.02 p.m. This meeting is being held in person and or remotely as an alternate means of public access pursuant to Chapter 2 of the Acts of 2025 and all other applicable laws temporarily amending certain provisions of the Open Meeting Law. You are hereby advised that this meeting and all communications during this meeting may be recorded by the Town of Hingham in accordance with the Open Meeting Law. If any participant wishes to record this meeting, please notify
+[00:01:35] the Chair at the start of the meeting in accordance with Mass General Law Chapter 30A, Section 20F, so that the Chair may inform all other participants of said recording. Is anyone recording the meeting this evening?
+[00:01:49] Great. I will state for the record participating this evening, myself Liz Klein, Chair Julie Straylee, and Bill Ramsey. If you are willing and able, please stand for the Pledge of Allegiance. Pledge of Allegiance, to the flag of the United States of America and to the Republic for which it stands, one nation under God, indivisible, with liberty and justice for all.
+[00:02:14] Next on the agenda is Approval of Minutes. Please, we have a few seconds. Are you ready to proceed? I'm ready. Okay. Make a motion to approve the minutes dated July 7, 2026. Roll call vote. Julie? Aye. Bill? Aye. And I'm an aye as well. I'll make a motion to approve the minutes dated July 21, 2026.
+[00:02:40] Second. Roll call vote. Julie? Aye. Bill? Aye. I'm an aye as well. I make a motion to approve the minutes dated July 29, 2026. Second. Roll call vote. Julie? Aye. Bill? Aye. I'm an aye as well. I'll make a motion to approve the minutes dated August 11, 2026. Second. Roll call vote. Julie? Aye. Bill? Aye. I'm an aye as well. Thank you. Next on the agenda is Executive Session under Mass General Law Chapter 30A, Section 21A3,
+[00:03:10] to discuss strategy with respect to collective bargaining with Teamsters Local Union 25, DPW Supervisors.
+[00:03:19] Before I entertain a motion to go into Executive Session under Item 4 of the agenda, I hereby declare that discussion of this agenda item in an open session may have a detrimental effect on the bargaining position of the public body. I make a motion to enter Executive Session under Mass General Law Chapter 30A, Section 21A3, to conduct strategy with respect to collective bargaining with Teamsters Local Union 25, DPW Supervisors. The Board will reconvene in open session.
+[00:03:47] I'll second that motion. Roll call vote. Julie? Aye. Bill? Aye. And I'm an aye as well. So we're going into Executive Session. We will be back shortly. Thank you for everyone's patience. We are now returning to open session.
+[00:04:15] Next on the agenda is Potential Vote to Sign the Memorandum of Agreement with Teamsters Local Union 25, DPW Supervisors.
+[00:04:26] Ashley, where do you want to come on up? And Jack Manning and Lynn Carroll.
+[00:04:46] Oh, sorry. I didn't do this for too long. The Board has completed its Executive Session and is now convening back in open session and will now take up the next item on the agenda. The Potential Vote to Sign the Memorandum of Agreement with Teamsters Local Union 25, DPW Supervisors. Do we have to vote on that?
+[00:05:08] Nope. Sorry. Thank you. Hi. We were able to make a new contract with our supervisors as a three-year contract through 2020-2029. And we were knocked that out pretty quickly with not a huge increase to the budget.
+[00:05:35] And I believe everyone's pretty happy. They all come on both sides. Excellent. Jack or Lynn, do you want to add anything? Sure. It was a great bargaining session. We got it done in two meetings, which is rare. And a lot of it, too. Ashley did a wonderful job getting us all prepared before we even hit the ground in our first meeting, as well as Tom. Great support from everyone. J.D. helped as well.
+[00:06:02] Went into the session not expecting anything other than, okay, what are they going to be asking for? There were about 15, 16 asks that the union made of us, 11 or 12 of them had money attached to them. We end up agreeing to some of them and not to others. All in all, the biggest item, of course, is going to be salary. So they came out of the box asking for 5, 5, and 5,
+[00:06:29] which is way outside of the kind of numbers that we were prepared to party with. And they do that. We settled at 3, 3, and 3 for the contract term. Some of the other items that were in there, there were some ads, some longevity, clothing allowances, some stipends for phone and a few other things. But as Ashley just referred to, total cost from the monetary perspective, about 19,000,
+[00:06:58] maybe 19,500 in terms of dollars. And then percentage terms, if you take out one item regarding a phone, which really is a one-time item, so to speak, in the sense that we only have four members of that union as it is. It was a big piece of the dollar impact and a big piece of percentage. But if you took that one item out, we were slightly below 3.5%. That's what we came in at.
+[00:07:24] So it was within the terms that you had given us to work with. We were grateful that they were serious about talking. They understood we had constraints that we could go so far that we couldn't do everything. And we had a strong relationship, working relationship, with the team we started representing. So it really helped us get through the negotiations. Excellent. Yes, it certainly showed.
+[00:07:50] Thank you, Ashley, for your leadership. That is obvious and certainly paved the way for it to go smoothly, it sounds like. And thank you, Jack and Lynn, for all of your efforts. It was a record that it was in two sessions. So appreciate the DPW supervisors for being so collaborative as well in all of their hard work day in and day out. I am in support of the agreement.
+[00:08:16] I think it shows how much we value them. I think it's very fair. So I have no issues building up any questions. No question. Just thank you, Ashley, Jack, Lynn. Thank you, DPW for your leadership as well. We have a fantastic DPW in this town that worked really hard for our residents and do some tough jobs. So we're very appreciative of everything. And I think the contract reflects it. So thank you. Julie, I'll just echo the thanks.
+[00:08:43] Bill is offered at everyone's fault for the negotiation. So thank you. And it's a good contract and it's ready to go. Okay. Any comments or questions from members of the public? Okay. And then you take a motion.
+[00:09:00] I'll make a motion to sign the memorandum of agreement with Teamsters Local 25 DPW supervisors effective July 1st, 2026 through June 30th, 2029. Second. Rule call vote. Julie. Aye. Bill. Aye. And I as well. Thank you so much. Thank you guys so much. Next on the agenda is to consider approval of a special one-day wine and malt beverages
+[00:09:26] laced into Eric Christiansen for the River Rock Music Festival at Rear River Farm to be held on Saturday, September 12, 2026 from 1 30 p.m. to 7 30 p.m. I see Eric. And should we have Heather with us? Yes. Okay. Heather, Eric, can you tell us a little bit about the event?
+[00:09:52] Sure. I'm the development director at Winter Home. And first of all, thank you for inviting us here
+[00:10:03] to talk about this a little bit. This will be the sixth annual River Rock Music Festival that we have held. It started off in someone's yard actually on the North River in Norwell. And we've grown it so much that we really needed a much bigger venue. And we were very fortunate to find Rear River Farm. It's a beautiful, beautiful place. It holds the amount of people that we need to have there.
+[00:10:29] And they've been just very gracious for this event. It's one of our most beloved fundraisers actually at this point in time. And it's our most inclusive event. We are raising money for Friendship Home in Norwell, which helps people with developmental disabilities. And we're just really fortunate to be able to share this information about this event, thank you.
+[00:10:54] But I can answer any questions that you may have too. I don't want to keep going on. But I have a lot of wonderful things to say about it. Excellent. Well, thank you for all that you do. I see the application is in order. It looks like the Police Chief Jones has signed off and is requiring one detail officer to help with parking, I'm assuming. Yes, ma'am. I did just want to clarify the licenses for Erika Christensen
+[00:11:24] or is it Erika? Erika. Erika. Correct. Perfect. Do you have any questions, Julie? Well, there's the tip certifications for Erika. Yes, that's correct. The license. Oh, okay.
+[00:11:49] Is that correct? I just want to make sure we don't have a typo in the language. That's correct, yes. Okay. Okay, thank you for clarifying. Do you have any questions or comments? No. Bill, any questions or comments? No questions, thank you. Good luck with the event. Thank you very much. Any questions or comments from members of the public?
+[00:12:15] Okay, I'm ready to see a question. I make a motion to approve the issuance of a special one-day wine and malt beverages license to Erika Christensen for the River Rock Music Festival at Weir River Farm to be held on Saturday, September 12, 2026 from 1.30 p.m. to 7.30 p.m. Second. Roll call vote, Julie? Aye.
+[00:12:40] Bill? Aye. And I'm an aye as well. Thank you so much. Good luck with the event. Thank you. Thank you. Next on the agenda is discussion and potential vote regarding opening the warrant and insertion of warrant articles into the warrant and to close the warrant for the 2026 special town meeting. Do we have Laura Burns or Tom Burhan? I see HMLP.
+[00:13:17] No. Is Laura going to present? Okay. Hi, Laura. How are you? Very well. So, I'm sorry. I'm Laura Burns, 479 Main Street for the Light Board. I missed a few sentences there because I had to get in. So, can we adjust the wine? I can hear one thing.
+[00:13:42] Very well. I can hear a little bit. One of the wine can be adjusted. Okay. So, where are we? Can you hear me? Thanks, Sebastian. Go ahead, Laura. So, but just tell me where we are. Still. Sebastian, can you increase it just a little bit? Okay.
+[00:14:11] So, we just got to the agenda ADAM discussion and potential vote regarding opening the warrant and insertion of the warrant articles. So, do you want to give us an update on the HMLP warrant article? Okay. Sure. Happy to. So, we just finished a meeting. And it's like we're a member of Australia was there. And where we are is contrary to my hope that, you know,
+[00:14:42] where we were was after town meeting, we were awaiting our rate study so that we could look at the costs going forward and go back to the public with an
+[00:14:59] accurate picture of what rate increases would be required in order to complete our project. And the hope was that we would get the rate study. There it is. There's the answer. We can come right back to the select board of the advisory committee and say, here's what it is. We're not there yet. You don't have the numbers. I don't want to bore you with where we've been. But the main reason that we're not there yet is because
+[00:15:27] when we first saw the rate study, the rate increases that were indicated that were needed to complete this project were not acceptable to the board. So, we have been working, we've been meeting every week working with our consultants to find ways to bring down the cost of this project to the rate payers. And so, we're exploring a number of changes in how we're going to finance this project,
+[00:15:54] which we hope will accomplish that. But we can't present the full picture yet because at this moment we're waiting on Eversource to bring us a new proposal about how we would finance the piece that is the tap station that Eversource will own. And they said they might have information by the end of this week. But it still leaves the board with a lot of variables to
+[00:16:22] juggle. And without all the data that we need to juggle them and choose a way forward and say, okay, this is the way forward. And we feel like we need to have that to present to you, to the advisory committee, to the public. And time is going short for that. We can't actually say, once again, when we'll be able to come forward with that information. So, as a result, we had a conversation about postponing
+[00:16:51] the vote on the bonding for the project and concluded and voted to request the select board, to tell the select board that we wish to withdraw our request that you put the bonding article on the board. And the reason is that we hope to come back in the spring and we will obviously have all of these. It was always a short timeline to get the numbers in order.
+[00:17:19] And if all had looked beautiful when we got the first report, we could have done that. But we are working really hard to try to bring the cost down. And we haven't decided on what the best report is, the way to go forward is by the spring, we will, you know, by late fall, we will certainly have the answer on what it is exactly we want to propose. But at this moment, we can't tell you what that will be.
+[00:17:46] We can't tell the advisory committee. And our feeling is that the time is too short to ask you and the advisory committee to wait for that proposal and then have time to evaluate it. That said, we, one of the, as I think you know, one of the proposals that we are pursuing is asking the legislature for a whole new petition to allow us to bond the entire project for 30 years instead of 20 years,
+[00:18:12] which will bring down the yearly cost of the project
+[00:18:17] considerably. So we have voted tonight to forward to you an article that's been approved as a form by the town council to ask the town meeting, to ask the select board to ask our state representatives to petition the legislature to allow us to bond for 30 years. And we are not required to bond for 30 years.
+[00:18:44] If we win that right through the legislature, it will be an option that we'll have to help bring the cost down. So that is one of our ideas that we've been working on. So I bring you that article and I think you probably have the text. Yes. And that's pretty much where we are.
+[00:19:09] So I'm happy to answer any questions you might have. Okay. Well, thank you, Laura. Thank you, Tom, and the entire light board for your diligence and persistence. And Laura, appreciate the candor in terms of the status right now. I think we, as you mentioned, we don't have enough information in front of us to make a really good decision and be prepared for October. So I appreciate your suggestion.
+[00:19:35] Julie, any questions or comments? Thank you, Laura. Thank you, Tom. And I thank the whole light board that has been working really hard to end the staff at the HMLP to crunch the numbers and find all the ways to present the numbers, get all the detail and data needed for this project. But that takes time.
+[00:20:02] And I think it's important to get all the information and have that information in hand and no changes. And so then it can be presented well to the voters and for success of this project. I support capital improvement to our electric infrastructure. I have a question about the state siting board.
+[00:20:28] And if you could just mention their final report when you expect that to come in and what information that would be useful coming out of that report.
+[00:20:39] Yes. Tom, would you like to give, I may get the exact dates wrong. Just please state your name and add it. Tom Morahan, general manager of the HMLP lighting plants. The siting board is expected to give an informal ruling somewhere around the 21st of September that will go to all petitioners that were
+[00:21:06] involved in the project. There will be an in-person meeting on Monday the 28th. And based on, you know, everyone will have an opportunity to speak at that meeting. And then based on the outcome of that meeting, we should have a proposed approval. But it takes 30, it will be a 30-day waiting period before it becomes effective.
+[00:21:33] So we, again, on the 28th, we should have something in hand that says the project hopefully is approved. Okay, great. And then besides the approval, is there any information in the report that you would, that would be helpful going forward in the future to give to voters? The whole siting board cases is online.
+[00:22:01] And if you go to our website, heirp.com, you'll find that that filing and the Knead project need is all listed in that project. And again, the siting board has been doing this for, you know, 30 years. They'll look at the needs of the project, they'll look at the cost of the project, and they'll make a decision on whether this project shouldn't go forward or not.
+[00:22:29] There should be enough there for anyone to read through and make an informed decision. Well, and also we'll be able to pull stuff out of it to answer people's questions about why is this project needed. Again, we'll go, you know, once we do go, before we go for approval again, you know, our plan would be to have, you know, politicians to socialize the project
+[00:22:58] with everyone in town, as we've done in the past. Okay, thank you. And as far as the special legislation request, I just want to thank you all for exploring any ways to decrease the rates and finding creative ways to finance the project. And it makes sense, I think it makes sense
+[00:23:23] to ask for this option. So, great, thank you. I don't have any questions. I just want to thank the light board. I know this is a very important project. It's also very complicated, and I appreciate your continued due diligence on this effort here. So, we'll see you for the spring. Thank you. Excellent, thank you. Any questions or comments from members
+[00:23:49] of the public? Okay. And we're going to go to number nine and do the presentation right before taking this vote. So, we'll bring up the presentation and let them, let's present both the IRS and South, then we'll have two articles
+[00:24:22] on the HMLP that we just covered. We'll close the warrant and then we'll go up and then like we'll just let leader number just sign. Yes. Okay. So, Angela, do you all want to come up? Are you sure, Katie? So, we're going a little out of order,
+[00:24:50] but I thought it would be helpful for people to have this context in the school building of any update before we take the vote. Sounds good. Thank you. Thank you. I'm Angela, heading back here, representing the 2025 School Building Committee. I'm here joined by Srinivasan Roberts and Ayesha Okon, as well, from the Hingham School District.
+[00:25:16] And online, we may have John Pusky, who is the, I'm sorry, her pesky, and he is the design lead from Gail. Great. So, we submitted to you the updated version of the 2025 School Building Committee update that we shared also with the schoolcommittee.com.
+[00:25:45] Great. So, it does have some context slides just about the process and then our schematic side packages and just as optional information we will also did include the HVAC options when we did that just as an update. Great. On the next slide is just a shot of the MSCA process, as you recall. When we spoke before, we were at the beginning of schematic design.
+[00:26:11] And at this point, we are at the end of schematic design for the elementary school groups and in the middle of schematic design for the high school. So, on the next slide, this is just that summary slide for the high school. I'm sorry, for the elementary school groups. And what I'll share with you today is the schematic design package, high level. On the next slide,
+[00:26:36] I'll go through quickly what the design team found as existing conditions at South Elementary School. First off, South was originally built in 1948 and then there was an addition in 1990, I'm sorry, in the 1950s and 1990s. So, there's two main roof systems.
+[00:27:01] One is a steep slope asphalt shingle and that's in that bottom left original 1948 build. And then in the upper right portion of the building is a low slope BPDM membrane roof. So, existing conditions found significant areas of water infiltration with staining both above and at the ceiling tiles.
+[00:27:31] The asphalt shingles are in fair to poor condition and many portions are already patched past its useful life. And there is some buckling and deterioration of many of the shingles. And then throughout both in the BPDM portion and throughout the shingled areas,
+[00:27:57] there's areas of flashing, which is like the protective barrier where the roofing materials meet, the walls are building, and much of the flashing is being peeled back, which is actually where some of the water exposure is coming from as well. And areas of deteriorated or damaged masonry as well identified. Additionally, there was a structural evaluation
+[00:28:24] for what the existing structural can support.
+[00:28:29] And there were two findings. One was that in the 1948 section that the framing for that roof is all original 1948 timber. So, the design team did determine that that does not meet current code, so reinforcement of those areas will be required.
+[00:28:56] And then in the middle, the middle of the back portion, right along the middle section of that middle section, there's a band that just meets code. So, it's at 99% loading of the capacity that that part of the framing can hold. And the design team recommends
+[00:29:21] keeping loading at 90% at the most. So, their recommendation is to also reinforce that section as well.
+[00:29:35] And then I'll go to the next slide. I kind of gave you a little bit about the recommendations up front, but the design team's overall recommendation is to do a full roof replacement. And the recommended or the selected materials for the steep slope area is replacing the asphalt shingles with a standing seam metal roof.
+[00:30:03] And for the low slope areas that currently have an EPDM membrane, the recommendation is an 80 mil PVC from low slope. And I will highlight that there were options both more expensive and less expensive than what was selected. So, this is solidly, a solid middle option.
+[00:30:30] We did evaluate if we did go one step lower in terms of roofing quality. The difference in price was about $180,000,
+[00:30:42] but the difference in quality was 10 years less
+[00:30:46] lifespan and warranty timing. So, instead of a 30 year warranty, we'd be going down to a 20 year warranty. And that also does affect the actual roofing materials. So, the actual expected life does decrease as well. So, that was one area where the school building committee felt that additional 180,000 was worth
+[00:31:13] the 10 years of additional lifespan.
+[00:31:17] The other recommendations were replacing and correcting the flashing and the gutters and also masonry repairs. And then the structural reinforcements, which I already alluded to, was reinforcing that original 1940 timber that is wired.
+[00:31:36] And then reinforcing the middle portion of that back building would be a steel reinforcement.
+[00:31:46] And the committee did evaluate, technically it just needs code. If we did not do that upgrade, what would the cost difference be? And that was $340,000. And then we also deliberated that
+[00:32:03] if we didn't do that work, and in the future we added RTUs or something happened where any weight was added to that roof, we would be responsible for the full amount. Whereas if we take care of it now, while we're already replacing the roof, we have that area exposed, we can do that work. We also have the MSBA grant that structural reinforcement would bring it up
+[00:32:31] to solar ready so the MSBA could also help reimburse for that structural work. So as a committee, we felt that it was worth doing now
+[00:32:46] rather than doing later, especially given that it is above 90% and that we could have the MSBA reimbursed in that. So those were the, that was the recommendations
+[00:33:01] and then the committee's deliberation. Just to summarize the overall costs, the next slide has specifically the construction breakdown.
+[00:33:12] That roofing system replacement comes to about 5 million since we are above the 30%. Since the project value is above 30% of the building's value,
+[00:33:28] we also do have to do MAAB accessibility upgrades to bring the building fully up to MAAB code. And then the structural modifications and ceiling scope, those that about 900,000 combined are for both of the structural reinforcements, the two areas that I mentioned, and then the masonry and flashing repairs
+[00:33:53] are for the masonry and fixing that ceiling up, edges of the flashing. So the overall construction estimate comes to 6.9 million.
+[00:34:05] And then the next slide has the overall budget summary that adds in our current schematic designs. That top line is what we've already spent so far. And then architecture and OCam going forward is the second line. We have the construction miscellaneous project costs for an overall budget, including contingencies of 8.2 million.
+[00:34:35] And so that is the total project budget that the school building committee and the school committee have approved and that we're seeking approval for to submit as our schematic design budget. Any questions on South? I don't have any questions, Julie?
+[00:35:01] I'll ask a quick question about the budget. So the town meeting 2025 appropriated the 181,600. It was actually 300. Okay. It was 300 in constant.
+[00:35:20] Okay, so the tool project budget that you would go to town meeting to ask for is the 8.2 million minus the 300,000 that you would be borrowed from. The school of the 300,000 doesn't mean construction. Ayesha, can you just get a little closer? Thank you. The school of the 300,000 doesn't get us to construction.
+[00:35:46] So in totality we would be asking, MSBA typically asks that we include as part of our warrant article, we ask for the full amount in terms of how much we need it. So it would be less whatever we've spent so far. Okay, thank you. Bill, any questions? I have some general questions, but I'll wait until both projects are done. Take off the second module.
+[00:36:12] Okay, you're looking. In terms of looking at this overall, we think that normally the MSBA, you put everything that you need up front into the contingency, et cetera, with the idea that as we get more into design and we go out to bid and everything else, that some of this costs hopefully will come down.
+[00:36:40] But this is kind of like where we are in the process. There's still lots to happen between now and fine-tuning of design as well. Great. So moving on to Plymouth River Elementary School. Plymouth River Elementary School was built in 1968 and had a roof replacement and repairs in 1999 or 2000.
+[00:37:08] And the existing conditions found today was widespread water infiltration through the school, built up gravel well past its expected life, widespread deterioration of roofing, flashing, and drainage components. And there also is some biogrowth as well
+[00:37:35] in some areas where there's retained water, some plant growth as well on the roof. And that actually holds water, holds even more water. So that is, it was clear that this roof is in need of replacement. And additionally, since this building has had snow loading concerns in the past
+[00:38:00] and it does require active monitoring by the school district whenever there's a heavy snow and it has caused school disruptions, the School Building Committee also had an extensive structural evaluation performed for Plymouth River. And when we had last met, we had just learned from the Yale Engineering team
+[00:38:28] that they were recommending a, not only structural augmentation, but also the replacement of old roof deck, which is significantly more than what we were expecting in terms of need. So since then, we did have the school get their structural engineering team
+[00:38:56] that they've worked with to monitor Plymouth River and check out any time that there was like a snow event, they would have this structural group involved. They're called Pabibin Associates.
+[00:39:09] And the school team had the Habibin Associates structural engineer do a peer review of the Yale team's assessment. And what they found was that there are areas of the roof deck that clearly are overload past the code loading. So there are areas of the roof deck that do need replacement.
+[00:39:35] And there are some areas of the roof deck that just may need further evaluation on it if it really, really needs to be replaced where it doesn't. So that is still ongoing. But as a committee, we also had a discussion leading to also what I usually bring up is when we submit this package to the MSBA, this is where the MSBA evaluates and assigns their maximum allowable grant.
+[00:40:00] So as a committee, we unanimously approved putting in the full amount for the full roof deck replacement and the structural augmentation. And then additionally, in parallel, as the MSBA is doing their review, we are doing more ironing out and really understanding what's absolutely required or what isn't.
+[00:40:25] So the proposal that we have going into MSBA and for your approval tonight to go into MSBA does include all of the structural recommendations by the GAL team. So on the next slide, just high level, the GAL team is recommending a full roof replacement
+[00:40:51] using that 80 mil PVC, the same material that we'll be using on the flat roofs of south. Also using that on all of the roofing areas of Plymouth River. And ceiling and structural augmentations. So the structural augmentations would be
+[00:41:17] right down that middle portion of both ends of the building, that middle low point. And then a full roof deck replacement, replacing it with a steel roof deck. So this would be significant, but also very strong reinforcements. And since those reinforcements, that is the recommended reinforcement
+[00:41:43] just to bring those areas up to code, but since they would also enable solar, is where MSBA may be able to reimburse roof deck. So that's how we got that in. And then we'd be able to see if the MSBA comes back if we have any dialogue. So that's the scope. Additionally, there is MAB accessibility upgrades
+[00:42:10] required here as well, and also flashing and casing repairs. So on the next slide, we have the overall construction estimate for PRS. The roofing system is estimated at 6.4. And then MAB upgrades are the second line.
+[00:42:38] The structural and ceiling work is really that roof deck plus the structural augmentation. Together that comes to about 6.5 million and then masonry and flashing repairs. So the total construction estimate comes to 13.8 million. And then when we add in,
+[00:43:04] on the next slide, adding in our current schematic design, the architecture and OPM fees, miscellaneous project costs and contingencies, the overall project budget comes to $16 million. And again, as a committee, we are discussing how we can evaluate
+[00:43:29] and just really make sure, do we really need the full roof deck or not? And then that may reduce if we feel that we safely continue to use any of the roof deck. Any questions? A quick question just to clarify. So to be eligible for the MSBA reimbursement rate of the 36.89,
+[00:43:56] is it required to do that roof deck or are you talking about a possible additional grant if we have that structural reinforcement? Maybe I'll rewind. So to be able to hold the weight of the roof in the snow, it is, many of those reinforcements are required to meet code
+[00:44:21] and current snow loading. So that's really what we're looking, kind of looking at three steps of like, what can it currently hold? What's required for current snow and then what's required for solar? And what we're finding is that the requirements for meeting current snow is actually much more
+[00:44:50] than the solar. The solar just adds a little bit. So some of these recommended, what they would recommend to do just normally just also happens to cover solar. So that's, and we are untangling that, like in detail for every area of the roof, just to really make sure that that's, it's one of those things that just bringing it up
+[00:45:17] to what we need also covers. Okay, great, thank you. Yeah, questions? Were you done with PRS to take questions? Yes, please. Yeah, Julie, any questions on PRS?
+[00:45:33] Well, I just wanted to comment that I think it's good
+[00:45:39] that in order to bring it up to code, in effect, we basically make it solar ready just by doing that, right? So that we would get the MSBA grant money potentially to cover what we need it to do anyway to be able to support snow. So, but my question is,
+[00:46:00] I think at some point in your meetings, there was discussion about having a roof snow melting system. And is that something that is being considered to do that in lieu of reinforcing, or you have to do the roof decking reinforcement anyway? Yeah, so additional structural work will help us untangle that for sure. As it may be have talked through the snow melt systems
+[00:46:29] and they sound really great, but also how we do have some concerns. The systems don't last very long. So if we did install them, we would need to be replacing them quite manually and they took a lot of maintenance from kind of finicky. They also run off of electricity. So if we lost power to the building, then it wouldn't keep,
+[00:46:55] the snow melt system wouldn't keep up.
+[00:46:59] And then even if we do have electricity and the snow melt system is running, there is a limit to how much snowfall they can keep up. So there is, they're not a completely foolproof way,
+[00:47:17] but they are something that we are looking at. And of course, if the MSK were to come back and also say, okay, we can't cover that much because we have some more discussions, they're an option that's on the table.
+[00:47:35] But we feel like this is the best package to forward to MSK at this time because it's really preferred that we just get it to take care of structurally rather than chasing it through a snow melt only. I would just add to that, Julie, that our independent consultant, she took a look at our plans for a potential snow melt.
+[00:48:01] She indicated it would be unlikely for that system to have kept up with the snow that we have last winter. So it would not have been effective against the snow experienced last winter. Lesser snowfall, perhaps, but what we experienced last winter, it would have been unlikely and we would have been in a similar position as we were last winter. Thank you. And then just one other quick question. As you go through, you submit, you pack it to the MSBA
+[00:48:27] and it will tell you back and forth. You're going to have to go to town meeting with a dollar amount to borrow. So at one point, do you settle on the, would there be any changes to these numbers as you go through this back and forth process for the MSBA? Yes, so maybe I can say, but I understand that I should add, because you have experience with this from other schools as well.
+[00:48:52] But once we submit this, after about four weeks, the MSBA schedules a meeting with us and our OPM and the design team and then reviews what they will cover, what they won't, or they may have questions about if this will be considered or if there may be some back and forth. So definitely at that point, these numbers could be modified,
+[00:49:18] especially if we made, if something wasn't covered, but we made a different choice than that would be. So these numbers aren't final until the MSBA board meeting when they approve, and there is an integration gap. And ideally, we would like to get that detailed understanding from the hygienists and associates,
+[00:49:43] engineering firm, as we go into that discussion. Thank you. To your question, yes, there may be, but in terms of the timing, in terms of now between now and town meeting,
+[00:49:58] these are probably where we're going to land in terms of town meeting unless something significant happens, that knowledge that we learn between now and then that would update those numbers. Does that make sense? Yeah. Thank you. Bill? Yeah, first of all, just to echo Julie's point about the snowfall on the roofs, right, so you've got, we had a winter last year where we had close to 30, two different storms, 30 inches of snow and more, one of them followed by extreme cold, ice dams with damage. I know the school roofs have to be flat for the purposes of facilitating what goes on in the school, but anything we can do to protect the roof so that we'll get us another 30, 40 years, I think is a good recommendation.
+[00:50:40] So I'd start there. So I guess what we're looking at, based on your town contribution numbers, is we'll be looking at about 10 million for PRS and about 5 million, roughly 5 million for South, correct? And that's with, I think, the 36.89% reimbursement rate from the MSBA is excellent. Is there a chance of any additional federal grant money or anything else related to environmental,
+[00:51:09] environmentally friendly products on the roofs that may bring that number down? Not that we've found, so far. We've been working closely with Patricia Burke. She has her finger on the pulse of all the available grant money. So she's been particularly helpful in discussions around the high school project, but with regard to the elementary project, MSBA really is the game in town on.
+[00:51:35] Also, although unsuccessful town meeting, we were very successful on reducing the cost of the proposed HCal from going out to bid to the bid coming in, the cost was reduced over 20%. I'm wondering if your OPMs have discussed that possibility with this project, given the fact that the pace of municipal construction work is slowed and with modifications to some of the
+[00:52:06] materials we used, I mean, they would bring that 20%. Again, it wasn't successful, but it was successful in bringing the number down. I'm wondering if your OPMs have discussed that with you at all? Yeah, something different on the timing of this project compared to HCal is that we'll be going out to bid after a special town meeting, so we may find those things. We got to bid after the back, okay, good to know.
+[00:52:32] All right, the only other thing is with the now that we're through schematic design and the numbers are starting to become more solid, we'll need to get the impact calculator up so people understand what's going to cause individual problems. Thank you, great work. Liz, I have a question. Sure. So I'm just curious, is the open open mind from their experience if they think that the maximum grant amount of
+[00:52:59] 3689 is realistic? So that is the assigned amount. That is a firm amount that is not changed, but what might change, like why that has the contingent upon is that this is assuming, those numbers up there assume that everything in the total project budget is eligible for reimbursement and the OPM believes that it
+[00:53:25] should be eligible for reimbursement, but where it could change if it did, is if the MSB did determine that some things weren't eligible, that's what would change, not 100%. When would you find that if they determine that something wasn't eligible and that percentage dropped because when would you know that? Okay, so that percent is the reimbursement rate of eligible
+[00:53:52] expenses. So the percent wouldn't change but would be of eligible May and we would find that out in that four week review cycle. So between that four weeks and the MSBA approval. August 27 is our submission, so last week of January.
+[00:54:18] It's going to be super important to communicate to them as soon as we know if that group has changed because we go to print it. I have to find out if we print that. Yeah, sure. Just one other quick question. Can you just explain for people who may not understand about the costs? They're not that big a cost, I would say, but the ADA, MAAD, accessibility repairs that you have to do and that doesn't have anything to do with the
+[00:54:54] route necessarily, but somehow something is triggering. Yeah, yeah. So the triggering event is when a total project improvement project for a building is greater than 30% of the building value. So that's the assessed cost, so I think you have the assessed cost. Then there's a requirement that we bring the full building up if there are any
+[00:55:24] accessibility code upgrades needed that those are made for a project of that size. So for both of these projects, we do have like a little list of what those are. Some of them are like sloping of sidewalks and an entrance, making some entrances, wider, some bathroom, moving things, and water refill stations. So they all improve accessibility and have the benefit.
+[00:56:03] But they're just a bunch of little projects that just add up into this project. So that's the context of what triggered that. One of the interesting things is that Angela's speaking about it actually came from a study that was done by Art and the Town, the Townwide Accessibility Study.
+[00:56:29] We were able to provide that information to the OPM designers, and they used that information to be able to work into that report. I just want to mention that as well. Okay, thank you. Well, anything that we can do to fix those, anything that's not compliant, so that's a win. So thank you. And maybe one more benefit to speak of having it part of this project also may make us eligible for MSBA reimbursement of those items as well. So that will be something MSBA is reviewing and will let us know either yes, is it eligible or not.
+[00:57:06] But having that in this package does make us potentially eligible for MSBA. Thank you. Okay, keep going. We're not doing high school tonight. I, it's up to you. I have, I did include the heat pump options one through five, if you'd like that update, but it's
+[00:57:34] what's up. And we already put this article. Yeah. Okay. Thank you. Thank you for all your work. Thank you to the committee. And thank you for presenting tonight. There is. So right now, it's through the warrant first agenda item eight, and then we'll turn it on.
+[00:58:02] Okay, so are there any questions or comments from the public on the warrant articles. No, okay. All right, I'm ready to take a motion for agenda item number. I'll make a motion to open the warrant for the special town meeting, and insert the following articles. Article A, to see if the town of Hingham will vote to raise an appropriate, appropriate, borrow or transfer from available funds, a sufficient sum of money to be expended under the direction of the 2025 school building committee.
+[00:58:38] For the roof system replacement, including the payment of all costs incidental or related there to the project at the Plymouth River elementary school located at 200 high street in Massachusetts, which proposed repair project with materially extend the useful life of the school and preserve an asset that otherwise is capable of supporting the required educational program, and for which the town may be eligible for a school construction grant from the Massachusetts School Building Authority, MSBA.
+[00:59:11] The town acknowledges that the MSBA's grant program is a non entitlement discretionary program based on need, as determined by the MSBA, and any project costs the town incurs in excess of any grant approved by and received from the MSBA shall be the sole responsibility of the town. Any grant that the town may receive from the MSBA for the project shall not exceed the lesser 136 and eight nine hundredths percent 36.89% of eligible approved project costs, as determined by the MSBA, or to the total maximum grant amount determined by the MSBA, or act on anything related there to inserted at the request of the 2025 school building committee.
+[00:59:59] Article E. Will the town of Hingham vote to petition the general court of the Commonwealth of Massachusetts in accordance with article 89 article two section eight Mass General Laws constitutional amendment article two section eight of the articles of amendment to the Constitution of the Commonwealth. For the passage of special enabling legislation authorizing the town to repay any bonds or notes issued to finance projects undertaken by the Hingham municipal light plant over a 30 year period, rather than over a 20 year period, as presently permitted by the general laws, which special enabling legislation shall be in such form as the select board shall approve to act on anything related there relating there too.
+[01:00:52] Insert it at the request of the Hingham light board and to close the warrant for the special town meeting on Tuesday, August 25th, 2026 and to direct the town administrator to forward copies of the articles to the advisory committee and to post them on the town's website within 10 days of this vote under town of Hingham general bylaws article two and all other applicable laws.
+[01:01:17] Second roll call vote Julie, Bill, and I'm an eye as well. Thank you. Okay, next on the agenda is discussion and potential vote regarding submittal to the Massachusetts school building authority of the schematic design and associated documents for the Plymouth River elementary school route project and South elementary school project. All right, so obviously we got the update. Is there anything else you wanted to add.
+[01:01:45] Yeah, so what I gave was pretty much the content. And I share whether you walk through exactly what Yes. So, including your package is a schematic design checklist. Basically what the MSV is doing is making sure that we cover all the different areas and they require us, and the MSV is asking for approval by both the OPM.
+[01:02:15] The superintendent, this committee chair, and, and also the select board chair, select board as well to another, another item included in your package is a funding agreement in terms of the MSV wants to know whether they are any third party funding sources or other grants that we are receiving as part of our funding of the project.
+[01:02:44] Sometimes, depending on what the funding sources, it may reduce the amount of the grant that we get.
+[01:02:50] And in our case we have no other funding source so that's just confirmation of that.
+[01:02:57] Any questions, comments, any questions or comments from members of the public.
+[01:03:04] Okay, I make a motion to authorize the chair of the select board as chief executive officer, decide and execute all required MSBA schematic designs and middle documents for the Plymouth River Elementary School roof, and South Elementary School projects.
+[01:03:22] Second, we'll call vote Julie. I bill. Hi, and I'm an eye as well. Thank you so much for your work on this.
+[01:03:30] Okay, next on the agenda is amendments to consider the amendment to the agreement with construction dynamics for the South Shore Country Club Cool Project.
+[01:03:43] Kevin Whalen, George, David. Hi, how are you.
+[01:03:56] So Chris Roddy should also be on.
+[01:04:02] So thank you for having us tonight.
+[01:04:10] One with me is George, a chair of the CCMC and also a security procurement officer.
+[01:04:18] So tonight we're here to request a amendment to the contract with construction dynamics for the pool of $230,472.
+[01:04:28] And this is due to the amount of ledge that we have hit at the construction site.
+[01:04:33] We will also have an additional change order coming in here.
+[01:04:37] We still do have a contingency, including all the ledge that we anticipate of over $200,000.
+[01:04:45] So we feel that we are still on a good path as far as staying under the budget, you know, the allocated funds from the town.
+[01:04:53] Chris and Roddy can speak to the, you know, how the project got to this point as far as the ledge.
+[01:05:02] But it was one of those things that we, you know, obviously we had anticipated it based on some warnings that we had done.
+[01:05:09] But it's just the quantity is a great, much larger amount that we anticipated.
+[01:05:15] So Chris, if you want to speak to, you know, the amounts that would happen.
+[01:05:22] Thanks, Kevin.
+[01:05:24] Hold on, Chris, we can't hear you.
+[01:05:33] Can you hear me now? Yes, thank you.
+[01:05:37] So again, I'm Chris Roddy, the architect for the club on this project.
+[01:05:43] As Kevin mentioned, during design, there were some warnings taken.
+[01:05:49] So we were aware that there was a certain amount of ledge.
+[01:05:52] The major design change we did at the time was to raise the entire site five feet to try to mitigate any kind of risk moving forward.
+[01:06:03] And during bidding, we included an allowance of 100 cubic yards for contractors to include in their bid to try to cover any unforeseen ledge,
+[01:06:18] as well as, you know, all the contractors also provided a unit cost for any ledge above and beyond the anticipated amount.
+[01:06:29] The amount was 100 cubic yards that was carried.
+[01:06:35] The amount that has been subsequently discovered as far as it passes that.
+[01:06:40] There just were unanticipated little knobs of ledge throughout the site where we didn't have borrowings taken.
+[01:06:52] It's very difficult to try to really navigate or quantify the amount of ledge to begin with.
+[01:07:02] So the thinking was raising the grade five feet would mitigate most of it.
+[01:07:09] Unfortunately, that wasn't the case.
+[01:07:12] However, by carrying a smaller allowance to begin with and not having that additional cost baked into the project from the start,
+[01:07:27] that has allowed Pomeroy Associates, the OPM, to subsequently negotiate lower unit costs for the discovered ledge with contractors. So in the end, even though it's an additional cost of the project, there actually will be savings from what it would have been had we had that larger additional allowance up front.
+[01:08:02] So somewhat of a silver lining, but even though it's unfortunate that this amount of ledge was discovered.
+[01:08:12] We had, I believe, the additional amount of ledge was almost 2500 tons over what we anticipated.
+[01:08:23] So that's a significant amount driving the cost.
+[01:08:28] Kevin, can you speak to how it was being funded?
+[01:08:32] So we had two buckets of money.
+[01:08:35] We had the CPC funding of 550,000 and we also had eight million for appropriation for town meeting at the annual town meeting of 2022.
+[01:08:45] We have just through a normal course of construction, we have gone through the 550 and this will be you.
+[01:08:53] The eight million dollars will support this particular amendment to the contract.
+[01:09:00] Okay, thank you.
+[01:09:03] Julie, any questions or comments?
+[01:09:06] Yeah, first of all, my comment is I'm glad that we were able to renegotiate the net price for further excavation.
+[01:09:14] So that's good.
+[01:09:16] So for the contingency, we had started out with roughly 403,000.
+[01:09:23] And then we have this adjustment today, or the expenses so far, the 230,000.
+[01:09:30] So we have about 170,000 remaining in the budget, correct?
+[01:09:34] That's correct.
+[01:09:36] Okay. And then so, as it was explained to me, that site work is usually the place or the event that takes up most of the contingency, correct?
+[01:09:45] That is correct. So we anticipate, especially there's not, you know, this is all, you know, a lot of concrete work and what have you in the building.
+[01:09:52] So once we get past, you know, the pouring of foundations, once we get past this ledge, we anticipate that there will be very minimal change orders.
+[01:10:01] And Chris has worked to do some slight design work to try to create some credits as well with the contractor.
+[01:10:08] So it won't be a significant number, but it will be helpful for us to build up the contingency.
+[01:10:13] Okay, thank you. So just sort of follow up to that.
+[01:10:17] Generally speaking, and maybe you can't even identify, but where does the remaining contingency funding usually go in a project like this?
+[01:10:27] Or it could be anything.
+[01:10:29] It could be anything. We are also, you know, we have an out of line item for 125,000 for our budget this year as well.
+[01:10:36] You know, we have to buy equipment, we have to do landscaping, which we're doing in-house.
+[01:10:43] So there's several other items that we have to do.
+[01:10:46] We also, we have DPW is building the parking lot down below.
+[01:10:50] We took several items out of the original budget.
+[01:10:54] I mean, the original bid that went out so we could make sure that we got under the allotted, the allocated money that we had from town meeting.
+[01:11:03] So essentially we took a lot of things on our plate to make sure. So hopefully we'll be able to have some funding back so we can also get all those items, those tasks that we have to do to complete the project.
+[01:11:16] Okay, great. Well, thank you for your diligence and work so far.
+[01:11:22] Cool is one of my favorite subjects.
+[01:11:25] The foundations are being poured right now, so things have started to take shape.
+[01:11:29] So, you know, hopefully once we get over this hump, we'll be doing, you know, we'll be smooth sailing.
+[01:11:36] Yes, excited for next summer. Bill?
+[01:11:39] No question, as I said, this is why we budget for contingencies and big projects because you're always going to come up on unanticipated costs and items.
+[01:11:49] So no issues at all.
+[01:11:51] And the site contractor has been great. Pompia was a local company that had been wonderful to work with.
+[01:11:57] Great, excellent. Well, thank you for all your efforts. I appreciate it.
+[01:12:01] Any questions or comments from members of the public?
+[01:12:07] I'll make a motion to authorize the town administrator to sign amendment number one to the agreement with construction dynamics for the South Shore Country Club Pool Project value by $230,472 for a total value not to exceed $8,636,725.
+[01:12:30] Second. I'll vote. Julie? Aye. Bill? Aye. And I'm in as well. Thank you. Thank you all. Thank you, Chris. Thanks, Kevin. Great, I'm going to skip ahead to number 12, presentation and potential vote to approve Veterans Monument Eagle Scout Project.
+[01:12:48] John Doyle and Shannon, are you here?
+[01:13:07] How are you, John? Thanks for being here.
+[01:13:12] You want to tell us about your project?
+[01:13:17] I'll be a senior at the highest school experience. Exciting.
+[01:13:32] And so for my project, how do I?
+[01:13:40] So just for a little bit of background, there are 21 military and veterans monuments here in Hingham. And I feel as though not that many people really know much about them. Maybe they've seen them.
+[01:13:53] I certainly before this have not known much about them.
+[01:13:56] And so my goal is to make information about them a lot more accessible. I want people to learn more about Hingham and its history and, you know, just build a stronger community here.
+[01:14:11] Next slide. So for the plan.
+[01:14:15] So the plan is to compile information about all 21 monuments to be posted on the Veterans Services portion of the town website.
+[01:14:50] And then 10 of those monuments will have a plaque placed with a QR code on them. So people can walk by, scan the QR code, and all of a sudden they have all this information about the monument right in front of them.
+[01:15:08] And the information will be going through the Historical Society as well to make sure everything is factual and up to code.
+[01:15:17] Next.
+[01:15:19] So for the online info, with the help of the Veterans Club at the Hingham High School, as well as my Boy Scout Troop 4, we have compiled most of the information right now.
+[01:15:38] And now we're going through edits.
+[01:15:40] Some have been turned into the Historical Society for edits and some are very close.
+[01:15:46] And the QR codes will link to the information on the Veterans portion of the website as well.
+[01:15:54] So the plaque, the plaque is, so the plaque would be a small addition next to the monument.
+[01:16:10] So if anybody wishes a copy of the presentation and go with the audio, we can supply it by contact in the select board office.
+[01:16:47] Okay.
+[01:16:53] So the plaque would be a small addition next to the monument.
+[01:16:58] I don't want it to take away from the monument in any way, so making sure there's the right placement for that is going to be very important.
+[01:17:07] So the plaque itself will be a cast aluminum plaque.
+[01:17:12] And so I have the name of the monument as well as the QR code for people to scan.
+[01:17:17] And if you have your phones on you, that QR code will scan to the current page for all the Veterans monuments.
+[01:17:25] And so I will work with the Veterans Commission to make sure that it's in a good spot and it won't take away from the monument.
+[01:17:36] It won't subtract from anything.
+[01:17:38] And also dig safe to ensure that not digging into any power lines or gas or whatever.
+[01:17:48] So this is the post design which will hold the plaque up.
+[01:17:57] So it has square tubing and then welded to the bottom of the square tubing is the base plate.
+[01:18:04] And so the plan is to pour some concrete and then drill in the holes and use concrete wedge anchors to secure the four bottom holes to it.
+[01:18:17] And then at the top is the plate for the plaque.
+[01:18:21] And that will be cut at a 45 degree angle and will be welded on.
+[01:18:25] And with tamper-proof screws, that's how the plaque is going to be mounted onto the post.
+[01:18:33] So any questions or...
+[01:18:37] This seems like a great project. Thank you John.
+[01:18:40] Certainly, Kingdom's history and our military history and honoring our veterans.
+[01:18:46] It's very important to us as a board and to this community.
+[01:18:49] So thank you for bringing this project forward and working with Shannon Burke.
+[01:18:54] The historic commission and to something like DPW as well.
+[01:18:58] So you probably learned a lot about the town.
+[01:19:01] Excellent.
+[01:19:03] Julie, any questions?
+[01:19:05] Well first, I love this project.
+[01:19:07] I think it's really important to give out information and be right when people walk by and understand who that person was.
+[01:19:15] And I see that also when this is not...
+[01:19:18] Well, anyway, we see like street signs underneath the street signs.
+[01:19:22] There's somebody recognizing somebody who lost their war and you don't know anything about them.
+[01:19:27] Anyway, this is a great idea. Thank you. Just double checking that DPW was involved with locating the details of this.
+[01:19:37] Yeah, so I've met with Ashley Breuer and she is on board.
+[01:19:43] And she will be putting this into her database of different things around the town, I guess.
+[01:19:53] Okay.
+[01:19:55] And probably maintain on an equity basis.
+[01:19:57] Great. And then my only other question is would it make sense to also have a link on a historic town, historic commission page?
+[01:20:07] Because I don't know.
+[01:20:10] We just say we have historical society, which is great.
+[01:20:13] But I'm wondering if that's where we are having the link from that page over to the veterans page.
+[01:20:18] Yes, we can talk to them about that and see if that's something they'd be willing to do.
+[01:20:22] Because currently on our page, all it has is pictures of the monuments and what the name of the monuments are.
+[01:20:28] And there's no history behind them.
+[01:20:30] So this is going to add a full history of that.
+[01:20:34] But yeah, I think it would be great to link it to the historical commission as well, their website.
+[01:20:38] So it's all together.
+[01:20:40] Yeah, I just think someone's looking into history in general and that would pop up as well.
+[01:20:44] Thank you.
+[01:20:48] Great. So this is an outstanding project, John.
+[01:20:50] Thank you for doing it.
+[01:20:52] And as an Eagle Scout myself and a veteran myself, I think this is fantastic.
+[01:20:57] So great, great job coming up with the concept, doing it.
+[01:21:01] I know you said you're going to do 10 of the 21, pretty familiar with them.
+[01:21:05] Have you decided which 10 you're going to do yet?
+[01:21:07] You're still working on it.
+[01:21:09] Yes. So those 10 have been decided by the Veterans Council.
+[01:21:14] Oh, Veterans Council. Oh, great. You got input from them too.
+[01:21:16] Yes, sir. We decided on the ones that we chose were ones that would not cause a safety risk by someone.
+[01:21:22] Some of them are like in an island in the middle of a busy road.
+[01:21:25] So we don't want people walking across the street to hit the QR code.
+[01:21:28] We took those ones out, but their information on the website is still going to be updated.
+[01:21:34] So you'll still get the history because the QR code actually leads you to the entire page that has all the monuments, not just that individual monuments.
+[01:21:43] So you'll actually be able to get all of them.
+[01:21:45] So we did ones that we thought that would not create a safety concern for anybody walking through town.
+[01:21:51] Excellent. Can you send me a list of modules that I'm curious about with the 10R?
+[01:21:55] Yes. Thank you. And just for perspective too, John, before you start, when we dedicated the Intermodals station to one of our two Medal of Honor recipients, Herbert Foss,
+[01:22:12] we actually put a QR code in under the bust of Medal of Honor recipient Foss.
+[01:22:19] And it's actually him telling the story of how he earned the Medal of Honor during the Spanish-American War in his own voice.
+[01:22:28] So that was kind of a unique thing.
+[01:22:30] We had an opportunity to deal with the library, but you're not going to get Major Benjamin Lincoln's voice, unfortunately.
+[01:22:35] But it might give you an idea of some context to honoring the veteran by going over there and listening to it.
+[01:22:46] So thank you. This is great.
+[01:22:48] This is a great project. Thank you for doing this. Thank you to your spout master back there too.
+[01:22:53] Excellent. Yeah. Great job.
+[01:22:57] Sure. John, great project. We've been talking about this kind of a project for a long time.
+[01:23:02] Sometimes it takes an external nudge to move things along, so well done.
+[01:23:06] I would ask that you probably, with Shannon, just drop off.
+[01:23:12] Give her all of the specs that you use, the companies you order, the facts from,
+[01:23:17] everything related to the plaques, because someday when you're off saving the world, these plaques might need to be replaced.
+[01:23:23] And I'm going to want to have access to make them look the same as everything else.
+[01:23:27] So if you don't mind us leaving that over to you.
+[01:23:30] That's usually going to be exposed to the weather.
+[01:23:33] Yeah. Excellent.
+[01:23:35] Well, good luck. Thank you.
+[01:23:39] We do have a vote.
+[01:23:42] Yes. I'm happy to make this one vote.
+[01:23:45] We'll make a motion to approve and support the proposed Eagle Scout project to install QR codes at the town's veterans monuments to provide the public with historical and background information about the monuments and to authorize the project to proceed.
+[01:23:59] Second.
+[01:24:01] We'll call the vote. Julie? Aye. Bill? Aye. And I'm an aye as well. Thank you so much. Good luck. Thank you.
+[01:24:06] Thank you Shannon. Yeah, great job.
+[01:24:16] We're going to go back to agenda item number 11. Thank you JR for your patience.
+[01:24:20] Consideration of recommendations from the traffic committee.
+[01:24:25] Reduce speed limit from 30 to 25 miles per hour high street from quarter mile west of the French board intersection in the eastbound direction of travel.
+[01:24:36] Reduce speed limit from 20 sorry reduce speed limit from 30 to 25 miles per hour high street from quarter mile east of the French board intersection of the westbound direction of travel.
+[01:24:48] Implementation of a temporary basis of a four-way stop at the intersection of North Street, Main Street, and Peering Road.
+[01:24:55] And concept roundabout design for Cushing Street, Main Street, and South Pleasant Street.
+[01:25:00] All right. Thank you JR for all the work on this. You want to explain what's being proposed?
+[01:25:06] Well, thank you for having me and thank you for your time.
+[01:25:10] Considering the time, do we want the abbreviated version and jump right in?
+[01:25:18] Sure, let's start there and then if we have questions we'll dive in a little bit.
+[01:25:23] Okay, so most of this was the result of our partnership with the Boston MPO.
+[01:25:30] And the Boston MPO had a Safe Streets for All grant from the federal government that Hingham was able to partner with them to identify targeted locations for vision zero safety improvements.
+[01:25:51] Vision zero being the overarching goal of achieving zero deaths or serious injuries on our roadways.
+[01:25:59] So with that kind of background, we went through a full analysis of several different intersections.
+[01:26:09] The intersections were identified by the MPO as ones that they identified as challenging intersections with high accident rates and some injuries.
+[01:26:25] And I actually had to dissuade them from doing one of them that they selected because we already had a complete street grant for it.
+[01:26:36] And that is the main little short roundabout. So they were upset they didn't get to do the design, but they were pleased that that was moving forward.
+[01:26:44] But with that said, the locations that were selected were the intersection of main Cushing and South Pleasant.
+[01:26:53] So that was one location. Another location was the intersection of high French and Ward.
+[01:26:59] That one has is a challenging intersection with some difficult approach angles and some vertical and horizontal curvature that makes visibility challenging.
+[01:27:11] Another intersection that we looked at was North Main and Fearing.
+[01:27:17] And then I worked with the design team to actually expand their scope of work and carry that all the way up into a corridor study of Main Street, really between North Street and Garrison.
+[01:27:36] So approaching basically from Hingham downtown to Hingham Center.
+[01:27:42] And so the reports, which I'm not going to go through in full, but were provided to you in the packet and kind of detail all of the different elements that were identified.
+[01:27:57] Can I interrupt one second? Yeah.
+[01:28:00] I'm going to copy.
+[01:28:03] I have one, yes.
+[01:28:12] I think there are two different. Yeah, there are two different reports.
+[01:28:25] That's it. So we'll make sure you've got the right paperwork.
+[01:28:29] So files at home. Gotcha. So within the scope of that work, I just wanted to bring up the Vision Zero dashboard.
+[01:28:44] This image here actually shows a heat map of crash patterns within Hingham. And the bright yellow are obviously your high crash locations.
+[01:28:56] Now, the vast majority of those are on our state highways or are located at signalized intersections.
+[01:29:06] So signalized intersections, the biggest reason, it isn't because they're signalized.
+[01:29:13] It's because they have high traffic volumes and they're at intersections with high volumes in multiple directions.
+[01:29:22] So when you have many opportunities for accidents, and that's what this image reflects.
+[01:29:31] But you do see that along the 228 corridor, which is town owned and not state responsibility, that we still maintain kind of a high rate of accidents along that roadway.
+[01:29:46] I highlighted several of the intersections that we've already talked about.
+[01:29:51] North Main and Fearing is in that kind of blob that intersects with downtown Hingham.
+[01:29:59] But it also picks up 3A and then runs up Summer Street in George Washington Boulevard.
+[01:30:05] Then you've got Main, Middle and Short, Hingham Center, and that's within that 228 corridor.
+[01:30:12] High French and Ward is right out there on the way this line.
+[01:30:16] And it's kind of isolated and kind of highlights that that is a particularly challenging intersection because it doesn't have the volume, but it does have the crash rate.
+[01:30:30] And then Main, Cushing and South Pleasant, I'm sure everyone who has tried to find a better way to get to Derby has navigated that intersection, and hopefully, mostly successfully, but it is a difficult one.
+[01:30:51] Yeah, so that kind of pieces together. That's what I was trying to show with that image if you want to kick to the next one.
+[01:30:59] So one of the things that we were attempting to accomplish within the grant was to have a temporary improvement for this intersection.
+[01:31:15] Unfortunately, the type of work that would be required to make this intersection substantially safer, but still allow the types of vehicles to navigate it, that routinely navigate it.
+[01:31:36] We actually ran a traffic study just to double check and make sure that my instincts were correct, but it does actually see a fair number of traffic trailers.
+[01:31:49] And so because of that, the necessary improvements in your section, if you will, took it out of the federal scope of temporary improvement and would have moved it into permanent improvement.
+[01:32:04] I have started the process to go ahead and prepare a design for permanent improvements to this intersection.
+[01:32:17] And the reason for that is that HMLP, their project, to bring the transmission line from National Grid in Weymouth, or Eversource in Weymouth, to the San Rida Road location, will navigate through this intersection, and they will be reconstructing from curb to curb, top, high, and French streets through that section.
+[01:32:50] So rather than have them simply pave the intersection as it is, I think it would be best for the town to take that opportunity to make a substantial safety change for this intersection and have the plans in place to be able to accomplish that.
+[01:33:11] It would probably have to come from a common plot between Chapter 90 and HMLP's contribution for the asphalt.
+[01:33:28] Moving on to the next location. So this is the four-way stop proposal. This was the temporary proposal that was provided by Tool Design, and this is at the intersection of North Street, Main Street, and Tierring Road.
+[01:33:49] One of the things that I wanted to make sure before we advanced a proposal for a four-way stop was to determine whether or not the intersection met the warrants under MUTCD. So we did a traffic study. We actually did a traffic study of all four intersections at North, South, Main, and Central to understand what the impact of putting a four-way stop here would do to the rest of the intersections and to make sure that we weren't basically creating
+[01:34:34] delays that impacted the safe travel in the rest of downtown. So with that said, what we found is that first of all, this intersection does meet the warrants for a four-way stop.
+[01:34:54] Second of all, the intersection at North Street and Central Street does not meet the warrant for a three-way stop in that case.
+[01:35:07] We found that currently the Main Street approach to North Street can see significant backups that currently impact operation at South Street. So by implementing a four-way stop, it should alleviate the impacts to South Street. However, when we do put in these, the four-way stop, obviously you're going to get more delays in North Street.
+[01:35:43] However, the queue length between Main Street and Central Street and North Street is sufficient to mitigate the issues and prevent the queue, at least by modeling. There will always be exceptions to that. But for the most part, I would say greater than 95% of the time, you will not see the stop line queue in North Street impacting the intersection at Central.
+[01:36:18] So this is the temporary layout. It does provide day lighting for pedestrians, and the day lighting is so-called, it provides better visibility for the vehicles that are approaching, but it does impact parking.
+[01:36:41] So this needs to be socialized and understood by the downtown community of what this would entail. We would want to set a specific period of time that we would implement this, whether it would be one week or two weeks, so that they could have a real opportunity to evaluate what the changes in parking, what and how it impacts their business,
+[01:37:09] and put traffic and things like that. At that point, we'd be able to take that information and begin consideration of whether or not we would want a permanent four-way stop solution.
+[01:37:30] I think the benefits to the four-way stop, in particular, are to pedestrian safety, because it is a much weirr line for all of the people entering that intersection, who has the right of way.
+[01:37:53] And it makes it much clearer that way. The day lighting, of course, will also help by, as the pedestrian enters the roadway, it's much clearer to approaching vehicles that someone is trying to traverse the street.
+[01:38:11] It also formalizes, for each of the vehicles, it formalizes who has the right of way, and you have the ability, especially for the fearing road to main street movement, to make that movement safely and without fear of being t-boned in either or both directions on North Street.
+[01:38:44] Would you like to discuss this one at all?
+[01:38:47] Do you have any other questions?
+[01:38:49] I have a question going back to Ward Street.
+[01:38:51] Yeah, let's back it up.
+[01:38:53] I have questions about this one.
+[01:38:55] It's okay.
+[01:38:58] So, the Ward Street High Street intersection, I came upon a very serious accident there yesterday.
+[01:39:05] The front of a car was completely crumpled up.
+[01:39:09] So, it's a tough intersection, but I was just wondering, when you mean permanent increase, do you mean like a four-way stop there?
+[01:39:20] Or what would be options besides just lowering the speed limit?
+[01:39:24] Because I know that we're kind of thinking about lowering the speed limit tonight, but I think even at 30 miles an hour, high street people have a really hard time adhering to that, or they're not sticking to that. So, I'm just wondering what the 25 gets you.
+[01:39:41] Obviously, they'd be going slower.
+[01:39:43] So, maybe...
+[01:39:45] The big difference there is that you'll have a change that people will notice.
+[01:39:52] It'll be a new sign.
+[01:39:54] We may also augment that new signage with other types of highlights in order to kind of advertise, if you will, that, hey, this is a traffic control sign, this is a traffic control change. But with that 25-mile-an-hour drop, at that point, it's also incumbent on...
+[01:40:22] on our police officers to make that an enforcement area, and to strictly observe it, and that's just one piece of it, but that was something that we could do now to try and mitigate the conditions.
+[01:40:49] I'll never say there are dangerous intersections, but there are certain intersections where people engage in dangerous behaviors because they're not properly understanding the risks.
+[01:41:09] So would an idea be down the road in conjunction with the HMP transmission making it a four-way stop, or are you thinking like, and I didn't see it in the reporting? We didn't have an initial
+[01:41:25] solution yet, and it may take some more study. And I also don't want to prime the well with my preferred solution at this time. I want to see what some other people have for solutions.
+[01:41:56] I mean, I like simple, and to me, roundabouts are simple, and I think we probably have the room to do it there. The dentist's office is a complicating issue because we want to maintain access for that property. But with all of that said, I'm as curious as you are to see
+[01:42:21] what a proper full-fledged traffic study would result in terms of bringing forward for a permanent solution. I mean, the nice thing about a four-way stop, if nothing else, is it's inexpensive. I don't know if it meets the warrants for that, but the number of traffic accidents may
+[01:42:47] put it over the edge. Thank you. That's my question for that.
+[01:42:55] Sure. Okay, so while we're here on the map of Peering and North, so the black lines, you're indicating where the actual stop place for the car would come to stop. Is that correct, the heavy black line? Yes. So we would not relocate the post office crosswalk that we made the RFP improvements to. Instead, we would move that stop line out to Peering Road,
+[01:43:28] which is appropriate. And it's got about three cars worth of stacking before it cars back into the crosswalk. So there's actually plenty of room there for cars to queue up for the stop line.
+[01:43:52] The stop line on Main Street is kind of set back from the, and we'll have to evaluate that in the field to make sure that all of these stop locations have appropriate visibility of each of the other approaches. So that's the only reason that that stop line may need to squish north of the pit. It looks really far back. Yes.
+[01:44:21] Can you tell me what daylighting actually is? What does that mean? It means that we
+[01:44:27] prevent vehicles from parking in close proximity to the crosswalk so that the pedestrian is more visible as they enter the road. Okay, so this plan hinges on removal of parking spaces from where those hash lines are, where diagonal lines are. Okay, and so it's not only just for the pilot, it would be the longer term solution. Not necessarily.
+[01:44:55] Okay. That is something that is certainly up for discussion. It can work without
+[01:45:04] the extensive daylighting that tool propose in my view. Okay. I think there's room to navigate within that using good engineering judgment. Okay, and final question is that just funding for that one, that the pilot and maybe in the future would just come out of Chapter 90 funds? So a couple different options. One is that the MPO is actually pursuing
+[01:45:34] follow-on construction grant to actually possibly implement this at their cost.
+[01:45:42] So that's our most favorite option. However, if we don't want to move on the federal government and the MPO's timeline, and we wanted to do something sooner, we could implement this either using Chapter 90 funds or engineering saving supplies from the operational budget.
+[01:46:06] Thank you. I do. I have a couple quick. I'm going to go back to the high street. Yep. So I, lowering the speed anywhere is a good idea in my opinion. As you might remember, I was the one that wanted to make everything down 25 miles an hour. And I'm still, although you and the chief disagree with me, I think it would be good to do that. But that's okay. I'm glad to see a reduction in speed here. That will definitely help. I agree with you that also
+[01:46:33] an additional traffic enforcement by the police department would help even visibility of a patrol car on the side of the road slows people down. But I think Julie's right. I think a more permanent solution to that intersection is probably going to be needed. In the future, I understand what you're saying, JR, but wait a little bit. But I think it's not so much waiting. It's that I want to put in place the right design process. Sure. Don't get it. Yeah. So it's
+[01:47:03] not that, in fact, I'm pushing it along. I'm moving forward with it. And the only question is, I don't know what the result. Okay. And then going to North Street, Farring and Maine. So, I mean, I like this idea too. This came up many, many years ago when I was the liaison to the traffic coming from the planning board. A lot of residents in the downtown area on Cottage Street
+[01:47:31] brought up a tissue forward. They were going to submit a citizen's condition of town meeting
+[01:47:37] to make this change in your proposal tonight. But they withdrew it. We're kind of late in the process. I'm not really sure why they did, but it was withdrawn. So I'm glad to see the fact. So I'm supportive of this. As an initial point, I do think your stop signs are way too far back. I mean, even on the Farring Road one, looking right to see the North Street,
+[01:48:05] the North Street, eastbound stop traffic, that's tight. And the way a four-way stop works, right, is that all the drivers see each other and they know who got there first. They know who's going to go next. Because every time I do come down Main Street, coming down a little bit to the intersection of Maine and South, drivers always very get confused about that. That stop sign before the crosswalk, in front of what you're talking about.
+[01:48:33] There's a double stop. I always stop twice, but some people don't. There was a gentleman today who blew the intersection. So some people don't stop. I always do it to be safe. But I'm nervous that if there's not good visibility on the stops, people are going to kind of hesitate and not know
+[01:48:50] by law who's in the queue. Who has the right to work? It's always the first driver to the four-way stop, correct? Who gets there first? They go next. Generally speaking, yes. Okay, we'll leave it there. All right, so that's one, my first point. But it looks like it sounds like you're tracking on that. Secondly, I'm concerned, I know we talked about it on the phone, North Street, eastbound traffic, right? So at North Street, westbound traffic. So you go through
+[01:49:19] the stop sign. And then if you're trying to pull a left on the central, right? Right by Square Cafe, beyond the church now. That's always a little tricky because you have cars coming at you. And I'm wondering if cars will be backed up because you'll have cars going the opposite way on North Street waiting at the stop sign, and then cars trying to go left on the central. Any concerns from you about that point? You understand what I'm saying?
+[01:49:46] Yeah, I don't have a concern on that because that movement is not a dominant movement.
+[01:49:57] But the nice thing about running a pilot is that we'll very quickly have the information.
+[01:50:05] And so you mentioned the pilot, I think two weeks is probably a better
+[01:50:13] longer period, a little bit a long period of time than one week. And then my last question to you is how do you assess success of the pilot? And what factors are you and the police department going to look at to say, okay, this has been successful or not, other than crash data, which hopefully there's not? Well, right. No, I think the biggest success, assessment of success is tracking the
+[01:50:45] actual operation of the intersection network. So when we did our intersection assessment, we had traffic counters out at each of the four intersections.
+[01:51:01] So all four that are right around that downtown loop between North, South, Central, Maine. And what we would, we'd put those out again, for the same, like for the two whole two weeks. Those just track speed? No, no, no. These are counting turning movements and counting
+[01:51:22] delay of vehicles. So you have those up in addition to the temporary response? Yeah. Yeah. Obviously, you'll have Sergeant Kilwaring with personal observations of the cadence of the intersection network. Yeah. Okay. I mean, I'm sure he'd want to have his guys out there to just make sure that, especially during AM peak, PM peak, that everything's moving through.
+[01:51:51] Naturally, we need to keep the buses moving for Patrick and our school team. So yeah, there'll definitely be some close evaluation on those elements.
+[01:52:07] My last question. Obviously, that corridor is very busy. How are you going to, I guess, educate people to this temporary change? Or are they just going to come up to a stop time? Because there's got to be a condition that there's no stop sign there. And unfortunately, people do not go to speed 11 on North Street. They tend to travel faster in it, particularly once they get past the post office. So the days? Yeah. How do you propose doing it?
+[01:52:34] I would say a few days before we put up the message boards. Yeah. Okay, great. And we'd put them around downtown so that people, depending on which direction they're coming from, would have an opportunity. It would say pending traffic control change, beginning, and then whatever date that is. And then see more at the Town of Bingham website.
+[01:53:06] Great. Awesome. Thank you.
+[01:53:09] And I just have one quick question. About the backup issue in front of Square Cafe, trying to take a left on the central. Could you, maybe not during the pilot, but if it became permanent, could you hash off the road so that cars couldn't stand and block that intersection if there was a backup queue to get to that intersection?
+[01:53:33] That would be an option that we could put forward at the traffic committee to make the recommendation sure. And then the last one, this is an out year consideration. But we were able
+[01:54:03] to make a roundabout fit at this intersection. So this is Maine Cushing in South Pleasant. And we were able to do it while maintaining all the existing driveways,
+[01:54:21] as well as improving some of the sidewalk network paths.
+[01:54:27] One other element that this also allows for, there are several conservation properties along South Pleasant Street. So last year we repaved Folling Mill Lane, which is the first off South Pleasant Street. And between
+[01:54:53] along South Pleasant Street, you, as select board, own a significant expanse of real estate. I could put a four lane highway through there, but I won't. But it would allow for a connection of the sidewalk network very easily to be made between Main Street and Folling Mill Lane.
+[01:55:21] I took the liberty of constructing pedestrian landings on both sides of South Pleasant Street so that we could put the crosswalk in, crossing South Pleasant. But this, the sidewalk, could now connect from Maine to the crosswalk at Folling Mill Lane and then get people safely into the conservation properties. That's just the bigger picture. But it would fit very nicely.
+[01:55:54] This project would fit very nicely into a follow on complete streets grant in which we could very easily make the case for that additional pedestrian infrastructure. Any questions on this one?
+[01:56:17] I was going to say, I know that's a problematic intersection, but I think I'd like to see kind of how the proposed and select board approved roundabout at Maine and Middle goes before we start putting more in. And I'd like to get some more feedback from the butters in that area as well. So I know you talked about out years. I'm not voting on this tonight, but I'd kind of like
+[01:56:42] to see how that project goes for it before we make any move with the roundabouts. I agree. I know this is a problem spot and it's come up many times. So I appreciate you looking at it. I don't think we're ready to move forward on that tonight. And also just back to the North Street, Main Street, Farring Road, I have witnessed accidents there. And I know that intersection is very confusing. People don't understand who has the right of way, which adds
+[01:57:09] to the safety concerns. How much, I will take public comment in just one minute. Have the butters been notified and I am concerned about one, the change, but the parking reduction for the downtown merchants. Right. So we haven't done any significant public outreach on this yet.
+[01:57:36] It was just something that the traffic committee brought forward to propose as a pilot. And then at the select board's direction, we would initiate all of those contacts, begin the process of getting feedback, sit down with Art and the Downtown Commission
+[01:57:54] and get their input on everything before we move forward with final pilot plan.
+[01:58:00] Okay. I just, I feel like that needs to be specialized. I do. I mean, the butters are aware. I've been contacted by two of butters. I have Tom with CCD on those emails as well. So some of them are aware, but I agree with you that we need to make sure they know about it and that the merchants know about it as well.
+[01:58:23] Yep. Do you have another question? Is it possible to give any timeline information about the complete streets grant? Middle main, that roundabout. So we recently received the contract, the signed contract for the state. So now we can move forward with the project, per se, with expenditures. I'm preparing a Chapter 90 project request
+[01:58:56] to supplement the complete streets grant to cover the additional work that isn't covered by the grant.
+[01:59:06] So the grant will not pay for police details. And with the amount of detouring and traffic management, that's going to be a significant expense for that project.
+[01:59:18] And as it is, our cost estimate exceeds the value of the grant. So there's also going to be some set aside to make sure that we can fully complete the project. With that said, our engineer is preparing the documents now. And they will be, I think we're looking at
+[01:59:42] four or six weeks before those are ready. And we can get that out to good.
+[01:59:49] Okay. I had one more thing before you. Sure. I just want to add one other thing too. Jay, I know that you're going to be moving on in your career. So I just want to take a quick moment here just to congratulate you and tell you how happy we are for you for this opportunity for you and your family, but how much we're going to miss you. And you have done tremendous work in our community. You've made our town better. I mean, your legacy is the
+[02:00:14] countless projects that you have led, implemented and done so successfully. I also very much appreciate the way that you've interacted with residents, your patience, your kindness, and just your professionalism. So I know we all will be happy here for a little bit longer, but just wanted to congratulate you and thank you for your tremendous service for a town. Thank you. So it means a lot. It does.
+[02:00:40] That is your legacy.
+[02:00:47] Square.
+[02:00:49] The JR prize.
+[02:00:51] I don't want it. I don't need it, but I was very happy. You should be proud of it. And thank you for your leadership and professionalism. I appreciate it. I haven't talked to you because I'm in denial. Obviously, so congratulations.
+[02:01:14] Do you want to come up to the podium and just state your name and address for the record, please.
+[02:01:25] Is this about right?
+[02:01:27] Yeah, that's perfect. Uh, Jeff Emerson, 764 Main Street. I'm in a butter to the Cushing South Pleasant Main Street intersection. I have real concerns about a roundabout. To me, a roundabout is really
+[02:01:52] not, to me, the primary choice traffic lights are for a number of reasons that I'll spell out.
+[02:02:01] The first thing is footprint of the streets. A roundabout is going to take approximately, and I talked with JR two or three months ago, 20 to 25 feet of Main Street to widen it. And that means it's going to push traffic 20 to 25 feet closer to my home. And I have real concerns about noise, pollution, dust
+[02:02:31] and dirt, and health of my family. Traffic lights, there would be no change in the footprint
+[02:02:42] of any of the streets. Specifically, South Pleasant Street has a triangle, two sides. On the side, going toward Queen Anne Corner with traffic lights, that would just be made a two-way street. That was a two-way street for a long time until it was changed a few years ago.
+[02:03:09] The other side of the triangle, the road towards Dain Dain with traffic lights,
+[02:03:19] that could stay. And traffic coming up South Pleasant could still take a right hand turn.
+[02:03:27] And traffic coming from downtown to Main Street could still take a left hand turn.
+[02:03:35] Traffic lights would be placed at the side of the triangle toward Queen Anne Corner. That's where the two-way street is. The side of the triangle towards downtown
+[02:03:49] would just stay as is. There'd just be no left hand turn.
+[02:03:53] So, that's item one. Item two is access to the intersection. And I don't think a roundabout
+[02:04:02] is going to be that helpful to Cushing Street and South Pleasant with the volume of traffic, on Main Street. If you're, on Cushing Street, you have to yield right away to all the Main Street traffic coming up from downtown. And there are waves of traffic until the light at free and high change again. And cars are not going to be able to enter that roundabout from Cushing until that's all done. So, it isn't that easy. With traffic lights, Cushing Street,
+[02:04:34] South Pleasant both have their turn with a green light signal, just like at Free High in Main. So, the access would be safe and easy. Next is pedestrians. I don't know how pedestrians are going to cross Main Street with a roundabout. There is apparently a plan. But with traffic lights,
+[02:05:01] it's easy. You have a pedestrian signal. This is the same at High Free in Main. There's a pedestrian signal. I use it frequently. It's great. Offward lanes stop.
+[02:05:14] There is a crossing guard for South School at this intersection. And I'm sure the crossing guard would very much appreciate traffic lights where they could just take a pedestrian signal. Everything would stop. And then she could get the children across the street.
+[02:05:35] Next is historic district. This intersection is either very near or in a historic district.
+[02:05:44] And a roundabout in this historic district area is just inappropriate. It's going to make much more of a disruption to a historic district. And a historic district is supposed to say the same. That's going to happen with traffic lights, just like at High Free in Main. They're just traffic lights. They don't disrupt the streetscape. Last, South Pleasant Street, to my knowledge, is
+[02:06:18] a scenic road. And I would consider that probably a scenic road is a scenic road so that it won't change. I don't know the exact definitions of it. But that would mean also
+[02:06:38] that traffic lights wouldn't change anything in South Pleasant Street, but a roundabout would. So I would please ask everybody to put traffic lights on the table for this intersection. And it could be, you know, an option relative to a roundabout. But I think traffic lights would be really the better choice. Thank you for your time. Thank you for coming back.
+[02:07:10] Jer, can you just respond to the question if traffic lights were part of the discussion or are being considered? So traffic lights don't fit the Vision Zero concept. So they weren't part of tool designs, toolbox in that. Because of how pedestrians are accommodated in a roundabout
+[02:07:36] with individual crossing locations for each approaching leg. It may, or egressing leg, as it were, it provides for significant safety, both for the pedestrians, but also that it makes it very clear who has the right of way at each conflict point. So that's the reason that
+[02:08:07] roundabouts are generally the preferred option for safety and efficiency over street lights, over snowflakes. Okay, thank you. And I see Deirdre Anderson has her hand raised. Deirdre, go ahead.
+[02:08:33] We go back to the left.
+[02:08:58] Maybe she can.
+[02:09:02] Deirdre, I think we're having some technical issues. If you want to reach out to us after the meeting or send an email to the Select Board, I apologize. Are there other questions or comments from members of the public? Let's try one more time here. It's like she was promoted.
+[02:09:30] Are you able to unmute yourself, Deirdre?
+[02:09:49] Can you close up as well? Yeah, I was just like close up. Are you seeing an issue on your own, Sebastian?
+[02:10:11] All right, apologies, Deirdre. We'll follow up with you. All right, as for our next steps,
+[02:10:20] I'm prepared to take a motion on reducing the speed limits. I think I'd like to wait on the streaming street pairing mode. How do you feel about this bill?
+[02:10:33] Just the notifications. You just don't notify abutters? Yes. Okay, fine.
+[02:10:42] Julie? I understood if we agree to this and that that would set motion the recommended notifications to the abutters and all the groundwork that would need to be done ahead of actually implementing, correct? Yeah, and we would still need to come to a decision whether or not we want to wait for the federal slash NPO timeline and have them pay for the improvements
+[02:11:10] or if we want to do this independently using funds that are available to the county.
+[02:11:17] Are you talking about North Street, Main Street and Peering Road, too? That's the only one I'm talking about. The speed limit reduction, if you said yes to that, then we would implement that for me. Okay, so if we accept the recommendation to implement on a temporary basis before we stop, what are the next steps? The next steps would be to make a determination. Do you want us to move forward
+[02:11:46] independent of the NPO federal grant or do you want us at a minimum, we can go out and do the notifications and discuss the impacts as currently proposed and get feedback from the merchants and the abutters. We can do all of those people or all of that front-end work
+[02:12:17] and then come back to the select board with a revised plan reflecting those comments, reflecting the comments and deciding what timeline we want to pursue this on.
+[02:12:36] If we were to move forward, I would want to make sure that we could change course after collecting the feedback. I don't want that just to be a step in the process, I want that to be an actual decision point. Do you understand what I'm saying? Yeah, then maybe we wait to vote
+[02:13:01] on that. Okay, with that said, the other steps you mentioned you can still do and just come back. So I can proceed with the communication, notification, get the feedback and maybe set something up with all the downtown interests. I'd let them know what's going on. Yeah, okay. Yes, I'd appreciate it. What's the waiting period for that grant, NPO grant?
+[02:13:30] Pregnant pause. Is there any urgency to implement this temporary fix? Like are we missing a deadline?
+[02:13:50] It is one of those things where I like the solution. There might be a way to implement it reasonably inexpensively once we identify what that permanent solution will be. But running the pilot,
+[02:14:13] that also, I mean, they had lockouts with all kinds of like rubber. They're kind of like area denial things that prevent people from driving over parking. But they're all like, it's all catch, right? Stuff that DPW could do with solvices if we wanted to, or other things that we have
+[02:14:42] as a stockpile. So we can be a lot more flexible and do a lot more efficiently
+[02:14:50] in a shorter period of time if we don't want to wait for the grant. It might not look as pretty or as polished, but it's certainly something that's still effective and
+[02:15:02] in manages to create the traffic change and begin working on getting the results that you want to see.
+[02:15:12] Okay, great. Liz, can I just jump in? Sure. Jayar, just as we talked about this a little bit, but as you continue your transition efforts, can you make sure right now you're the person who understands what the board's directives are? You're going to go out and you're going to speak to the downtown, all the neighbors down there and everybody affected by this project, and then you're leaving. So I want to make sure that the information... All about the natives.
+[02:15:43] Right. I just want to make sure that the transition includes Pat being brought up to speed, a temporary engineer who's brought up to speed with what the board is hoping to accomplish here.
+[02:16:01] Okay. Do you want to give Jayar one more chance?
+[02:16:06] It's running, but I haven't pulled it. All right. I'm ready to take a motion on
+[02:16:16] the first part, the speed reduction. I'll make a motion to accept the recommendation of the traffic committee and establish the speed limit of 25 miles per hour in the following areas of Hangout Pursuant to Mass General Laws, Chapter 90, Section 17C, and Article 25 of the 2022 Town of Kingdom Annual Town Meeting. Reduced speed limit from 30 to 25 miles per hour,
+[02:16:42] high street from one quarter mile west of the French Ward intersection in the eastbound direction of travel. Reduced speed limit from 30 to 25 miles per hour, high street from one quarter mile east of the French Ward intersection in the westbound direction of travel. Second. Bill, call vote. Julie? Aye. Bill? Aye. Naim and I as well. Thank you, Jayar, and that's a tremendous amount of work.
+[02:17:07] Appreciate it. Thank you. Excellent. Thank you for everything. I appreciate you being here.
+[02:17:17] Next on the agenda are select board names updates. Tom, I believe you're going to present.
+[02:17:27] We're a little early for a Q1 update, but close enough. I felt like people were centering with how far we went.
+[02:17:41] I was just saying that it's a little early for a Q1 update, a couple of months in, but I felt like we had got enough accomplished at reporting out. There were three main categories of select board goals this year. Invest in the community, have eight sub goals. Financial stewardship had five. Ineffective and transparent communication at the same time. I'll just walk through each of those pretty. Pretty quick.
+[02:18:07] The first was to define a plan to support the senior part of the nation.
+[02:18:11] A lot of work actually has been underway since the town meeting in April. We've made some physical improvements. We've expanded the program space into the old police department's front desk and lobby area. We were actively improving the outdoor patio just outside of the main room at the HCal. Then other internal, smaller internal improvements
+[02:18:37] are underway as well. I know the commissioner met with the director earlier this week, or late last week. Progress is being made on some of those requests as well. Some operational improvements. I have worked with the director to identify some operating schedule improvements. She's got a series of ideas put together for that. We're evaluating those and we have something that we're comfortable with. We are also talking about ongoing funding
+[02:19:10] streams and a review of what those might look like, as well as a lot of different conversations about the long-term solutions. That's all in play. It's all happening in a couple of months. A lot of that has been placed in April since the town meeting.
+[02:19:33] Capital outlay schedule. We actually completed that. They've had a couple of meetings earlier this year. They're working on that schedule. Capital needs building assessment and the standing facilities committee. Those are both goals that we will be working on throughout the course of the year and potentially lead up to the budget process. We haven't made a ton of progress in those just yet in the first couple of months, but we will, like I said, we will be
+[02:20:02] to the event of the extent that they're going to be involved in affecting this year's budget. They'll be coming up here. Those issues will be raised to the top.
+[02:20:16] HMLP substation. We heard what we did here tonight with the plan for special town meeting and a potential follow-up of the annual town meeting. The health care subsidy study, that is underway. The task force has been formed. They have met. They've hired consultants in their actively researching. That work is underway. My understanding is that they are on target
+[02:20:43] early still, but on target currently to meet the deadline that was set by town for their reports. Some resiliency work over at the harbor. This is a long-term project. I think everyone understands that. This is a multi-year effort. The 3A work is ending hopefully beginning sometime soon in the next several months. As we work with the state on that 3A work,
+[02:21:14] that's also going to interact with local permitting, that's actively happening. We got some good news last weekend down at the conservation commission. So, again, local permitting is progressing. 3A work is progressing through the state process and our local requirements, whether it's water or HMLP's efforts in that area, that's all actively being worked on. And then Lincoln School
+[02:21:41] Apartments and the Housing Trust has been discussing this. So, again, in progress, ending plans, but actively being worked on. The financial stewardship goals, the five goals there were to, one was to reengage the sustainable budgeting task force in the update report. Again, that task force has been formed and has met several times. The data updates are complete.
+[02:22:07] Modeling options have been drafted and considered and being reviewed by the committee. We'll be actively discussing potential recommendations in the next couple of meetings and then with the hope of anticipating a report this fall. In time to inform the next goal, which was explore an updated financial unit. The intent of the SPTF group is to create a series of
+[02:22:34] recommendations that can be formed in part the financial unit plan, a next financial plan, should everyone decide what they want. And that work is also, the accounting department had a number of vacancies. Those have all been filmed. Operational improvements have been implemented in large part due to Ms. Dugan sitting prior over to my left, struggling with Zoom and wanting
+[02:23:01] to explore a computer on the one hand. But she hasn't yet, which is a good sign, but I know she's really solved significant issues in the accounting department and things are going well over there. We are exploring people with initiatives, not so much yet, but we will be soon.
+[02:23:21] I've been told. Yes, we look at the reports, the reports that we had tonight, like six times. I guess two months in, but yes, we look at these things. And then I do need to speak with John about the Municipal Empowerment Act and what was made available to us through that act and what we can do locally for our report. That review will begin soon.
+[02:23:52] The last category was effective and transparent communications. There were six goals. One was to hold a fall meeting with the advisory committee and stakeholders. I do have communications out to the chair of the advisory committee. We are actively planning for an appropriate date. That is likely going to happen in November. One of the goals was to create and implement the 3A communications plan. Also in progress, I have spoken several times
+[02:24:18] with Mr. Frey, our engineer, about the importance of this project and of this phase of this project. He has identified some potential solutions. He has talked to possible vendors and a procurement for this is pending a final solution and that will be put in place in time for construction. There are still a little ways to open that. The communication
+[02:24:46] plan is a major component. Implementing electronic voting, EVTF. I've been calling everyone else that we've formed. We've met several times. We've assigned research responsibilities. All the members are off doing that work and we'll be reporting out in time to hopefully
+[02:25:12] put a summary report together for our October date. We have been engaging in our weekly video updates. I would call that complete since we've done eight of them regularly and I missed a single week, which is great. So all good. Hopefully people start to see the benefit of that and our numbers increase, but you know, so fast we're going to take a learning curve. We'll get better at it. You don't start off as a TV show host. You've got to work your way
+[02:25:44] into that role, but I'm getting there. And then scheduling a legislative update for the Select Board. I have spoken with Joe Moschino, who is talking to Pat O'Connor. The two of them will actively find a date or actively working on finding a date to come in. And I ask for it to be this moment. And they'll be in touch with me and I hope I will be one of them to cover, but we'll
+[02:26:10] focus on them. We'll find the right date. And also the legal appointment voters and maybe touch with her entirely. And she is, she's also helping progress. Yeah, lots of progress. Thank you. Any questions or comments from the board or people or attendees? I will add one
+[02:26:36] thing about the weekly update is that you're looking at YouTube views. That's one thing that I have heard feedback from people who are not watching the YouTube video, but they're reading the transcript. And I don't think there's any way to measure from now on the transcript, but I have heard feedback from the sort of like watching the video. That's probably a good discussion. So that's good and consistency. Yes, that's a great idea. And thank you for
+[02:27:08] executing it, Tom. Okay, next on the agenda are appointments.
+[02:27:15] We have two. Yep, I would make an appointment. Make a motion to appoint Thomas O'Reilly and Terrence Granahan to the Harvard Development Committee for a three-year term ending June 30, 2029. Second. We'll call vote Julie. Aye. Bill. Aye. I'll make a motion to appoint Brenda Black to the Human Rights Commission for a three-year term ending June 30, 2029 as recommended by the
+[02:27:43] Affordable Housing Trust. Second. We'll call vote Julie. Aye. Bill. Aye. I'm an aye as well. Thank you to all of our volunteers. Next on the agenda is public comment. Any questions or comments from members of the public on items not on the agenda? Seeing none, if you're trying to raise your hand, please contact us tomorrow. But they don't see anything. Okay, next on the agenda,
+[02:28:09] town administrator select word reports. Katie? Nothing from you this evening. Tom? Nothing to anything. Nothing this evening, thank you. Nothing. And I decided nothing to ask you, but thank you for the update on the goals though that is important. The Sustainable Budget Task Force is meeting this week. So excited to see that work continue. If there's nothing else, I'll take a motion to adjourn.
+[02:28:35] Make a motion to adjourn. Second. We'll call vote Julie. Aye. Bill. Aye. I'm an aye as well. We are adjourned at 8 o'clock 4 p.m. Thank you. We recognize that taking time to visit, call, or email our town departments to report issues in Hingham doesn't always fit your schedule.
+[02:29:04] Are you looking for an easier way to communicate with the town? Well, now there's an easier way. With the MyHingham mobile app, you can submit service requests or gain information with just a few taps of your phone. To get started, simply download the MyHingham app from the Apple App Store or Google Play, or simply scan our QR code to get the access to the app that's best for your phone. Once you've opened the app, select the submit a service request
+[02:29:31] button. From there, you can choose the type of request you want to submit, whether it's a pothole, a fallen tree, or something else. You'll then be prompted to take a photo of the issue and provide a brief description. You can also use the app to track the status of your issue and receive updates. Using MyHingham puts immediate access to town resources in the palm of your hand, including calendars of meetings and events, agendas for upcoming meetings,
+[02:30:01] building permit filing options, online bill payment options, information about our boards, committees, departments, and services. So why wait? Download the MyHingham app today and report issues and get information on town government with ease.
