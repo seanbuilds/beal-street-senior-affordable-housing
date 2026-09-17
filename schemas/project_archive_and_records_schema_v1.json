@@ -1,0 +1,351 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Municipal Housing, Title Records, and Archival Governance Schema",
+  "description": "Formal schema defining the data architecture, legal provenance, environmental adjudication, and inventory structure for municipal affordable housing and public land records.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "project_metadata",
+    "title_and_statutory_chain",
+    "environmental_and_permitting",
+    "repository_architecture",
+    "governance_and_monitoring"
+  ],
+  "properties": {
+    "project_metadata": {
+      "type": "object",
+      "description": "Core descriptive and real property parameters of the municipal development.",
+      "required": [
+        "project_name",
+        "subject_property",
+        "fee_simple_owner",
+        "designated_developer",
+        "disposition_structure",
+        "development_program"
+      ],
+      "properties": {
+        "project_name": { "type": "string", "example": "100 Beal Street Senior Affordable Housing" },
+        "tract_identifier": { "type": "string", "example": "School Tract II (Plan Book 17, Page 508)" },
+        "subject_property": {
+          "type": "object",
+          "required": ["street_address", "municipality", "state", "postal_code", "assessor_parcel_id", "acreage_breakdown"],
+          "properties": {
+            "street_address": { "type": "string", "example": "100 Beal Street" },
+            "municipality": { "type": "string", "example": "Hingham" },
+            "state": { "type": "string", "example": "MA" },
+            "postal_code": { "type": "string", "example": "02043" },
+            "assessor_parcel_id": { "type": "string", "example": "Map 58, Block 0, Lot 23" },
+            "acreage_breakdown": {
+              "type": "object",
+              "required": ["total_parent_parcel", "lot_b_disposition_area", "net_buildable_upland", "lot_a_preserved", "lot_c_buffer"],
+              "properties": {
+                "total_parent_parcel": { "type": "number", "description": "Gross parent parcel acreage", "example": 15.014 },
+                "lot_b_disposition_area": { "type": "number", "description": "Acreage dedicated to ground lease disposition", "example": 8.600 },
+                "net_buildable_upland": { "type": "number", "description": "Net buildable plateau outside wetland buffer zones", "example": 6.500 },
+                "lot_a_preserved": { "type": "number", "description": "Existing adolescent residential facility lot", "example": 2.400 },
+                "lot_c_buffer": { "type": "number", "description": "Residual open space and conservation buffer", "example": 3.550 }
+              }
+            }
+          }
+        },
+        "fee_simple_owner": {
+          "type": "object",
+          "required": ["legal_entity_name", "statutory_entity_type", "enabling_statute", "executive_director"],
+          "properties": {
+            "legal_entity_name": { "type": "string", "example": "Hingham Housing Authority (HHA)" },
+            "statutory_entity_type": { "type": "string", "example": "Independent public body corporate and politic" },
+            "enabling_statute": { "type": "string", "example": "Massachusetts General Laws, Chapter 121B, Section 3" },
+            "executive_director": { "type": "string", "example": "James Marathas" },
+            "assistant_executive_director": { "type": "string", "example": "Colleen M. Whalen" }
+          }
+        },
+        "designated_developer": {
+          "type": "object",
+          "required": ["lead_developer", "joint_venture_partner", "procurement_award_date", "procurement_statute"],
+          "properties": {
+            "lead_developer": { "type": "string", "example": "Peabody Properties, Inc." },
+            "joint_venture_partner": { "type": "string", "example": "Affordable Housing Services Collaborative, Inc. (AHSC)" },
+            "developer_entity": { "type": "string", "example": "AHSC Peabody Developers LLC" },
+            "procurement_award_date": { "type": "string", "format": "date", "example": "2025-08-12" },
+            "procurement_statute": { "type": "string", "example": "M.G.L. c. 30B, § 16 (Uniform Procurement Act)" }
+          }
+        },
+        "disposition_structure": {
+          "type": "object",
+          "required": ["instrument_type", "lease_term_years", "rent_structure", "minimum_upfront_payment", "reversion_terms"],
+          "properties": {
+            "instrument_type": { "type": "string", "example": "Triple-Net (NNN) Ground Lease" },
+            "lease_term_years": { "type": "integer", "example": 99 },
+            "rent_structure": { "type": "string", "example": "Upfront capital consideration plus ongoing annual base rent" },
+            "minimum_upfront_payment": { "type": "number", "example": 500000.00 },
+            "reversion_terms": { "type": "string", "example": "100% reversion of land, buildings, and improvements to HHA upon expiration" }
+          }
+        },
+        "development_program": {
+          "type": "object",
+          "required": ["unit_count", "building_typology", "occupancy_restriction", "affordability_tiering"],
+          "properties": {
+            "unit_count": { "type": "integer", "example": 68 },
+            "building_typology": { "type": "string", "example": "3-Story wood-frame low profile residential building with surface parking" },
+            "occupancy_restriction": { "type": "string", "example": "Senior housing restricted to individuals aged 62 and older" },
+            "affordability_tiering": {
+              "type": "array",
+              "items": { "type": "string" },
+              "example": ["30% Area Median Income (AMI)", "50% AMI", "60% AMI"]
+            }
+          }
+        }
+      }
+    },
+    "title_and_statutory_chain": {
+      "type": "object",
+      "description": "Chronological legal chain of title, statutory restrictions, litigation actions, and board votes.",
+      "required": ["deed_1989", "statutory_reverter_expiration", "select_board_litigation_vote", "state_statutory_restriction", "hha_rescission_vote"],
+      "properties": {
+        "deed_1989": {
+          "type": "object",
+          "required": ["execution_date", "recording_date", "registry_citation", "consideration_paid", "reverter_clause"],
+          "properties": {
+            "execution_date": { "type": "string", "format": "date", "example": "1989-03-07" },
+            "recording_date": { "type": "string", "format": "date", "example": "1989-04-21" },
+            "registry_citation": { "type": "string", "example": "Plymouth County Registry of Deeds, Book 09097, Pages 158–161 (Doc #29758)" },
+            "consideration_paid": { "type": "number", "example": 45751.00 },
+            "reverter_clause": { "type": "string", "example": "Right of entry for condition broken terminates after thirty years pursuant to M.G.L. c. 184A, § 3" }
+          }
+        },
+        "statutory_reverter_expiration": {
+          "type": "object",
+          "required": ["expiration_date", "governing_statutes", "legal_effect"],
+          "properties": {
+            "expiration_date": { "type": "string", "format": "date", "example": "2019-03-07" },
+            "governing_statutes": { "type": "string", "example": "M.G.L. c. 184A, § 3 (recodified c. 184A, § 7) and M.G.L. c. 184, § 23" },
+            "legal_effect": { "type": "string", "example": "Automatic extinguishment by operation of law without breach; title vests in fee simple absolute" }
+          }
+        },
+        "select_board_litigation_vote": {
+          "type": "object",
+          "required": ["meeting_date", "session_type", "motion_text", "vote_tally", "legal_context"],
+          "properties": {
+            "meeting_date": { "type": "string", "format": "date", "example": "2019-02-26" },
+            "session_type": { "type": "string", "example": "Executive Session (6:45 PM)" },
+            "motion_text": { "type": "string", "example": "Motion to file litigation regarding enforcement of agreement as to 100 Beal Street, Hingham, MA" },
+            "vote_tally": { "type": "string", "example": "3–0 Unanimous (Paul Healey, Mary Power, Karen Johnson)" },
+            "legal_context": { "type": "string", "example": "Voted 9 days before 30-year deed reverter expiration to assert rights under 2001 MOU" }
+          }
+        },
+        "state_statutory_restriction": {
+          "type": "object",
+          "required": ["recording_date", "registry_citation", "state_agency", "statutory_authority", "ruling"],
+          "properties": {
+            "recording_date": { "type": "string", "format": "date", "example": "2019-07-18" },
+            "registry_citation": { "type": "string", "example": "Plymouth County Registry of Deeds, Book 51379, Page 244 (Doc #55967)" },
+            "state_agency": { "type": "string", "example": "Massachusetts Department of Housing and Community Development (DHCD / EOHLC)" },
+            "statutory_authority": { "type": "string", "example": "M.G.L. c. 121B, § 34 (State-Aided Public Housing, Project 689-01)" },
+            "ruling": { "type": "string", "example": "Bars alienation of public housing land without express written approval from state director and AG review; deemed HHA June 5, 2019 transfer vote ultra vires and void" }
+          }
+        },
+        "hha_rescission_vote": {
+          "type": "object",
+          "required": ["meeting_date", "meeting_type", "motion_text", "vote_tally", "legal_effect"],
+          "properties": {
+            "meeting_date": { "type": "string", "format": "date", "example": "2021-09-07" },
+            "meeting_type": { "type": "string", "example": "Regular Board Meeting (5:00 PM)" },
+            "motion_text": { "type": "string", "example": "Rescind prior Motion made at the June 5, 2019 Special Meeting to transfer approximately nineteen acres to the Town of Hingham" },
+            "vote_tally": { "type": "string", "example": "4–0 Unanimous (Gregory O'Meara, Irma Lauter, Megan Buhr, Janine Suchecki)" },
+            "legal_effect": { "type": "string", "example": "Extinguished municipal transfer agreement; confirmed land remains in sole fee ownership of HHA" }
+          }
+        }
+      }
+    },
+    "environmental_and_permitting": {
+      "type": "object",
+      "description": "Adjudicated wetlands boundaries, conservation approvals, and zoning safe harbor status.",
+      "required": ["massdep_anrad", "recorded_orad", "watershed_protections", "chapter_40b_safe_harbor"],
+      "properties": {
+        "massdep_anrad": {
+          "type": "object",
+          "required": ["dep_file_number", "issuing_authority", "approval_date", "civil_engineer", "wetland_scientist"],
+          "properties": {
+            "dep_file_number": { "type": "string", "example": "034-1509" },
+            "issuing_authority": { "type": "string", "example": "Hingham Conservation Commission" },
+            "approval_date": { "type": "string", "format": "date", "example": "2024-11-04" },
+            "civil_engineer": { "type": "string", "example": "Control Point Associates, Inc." },
+            "wetland_scientist": { "type": "string", "example": "Lucas Environmental, LLC" },
+            "flagged_resources": {
+              "type": "array",
+              "items": { "type": "string" },
+              "example": ["Bordering Vegetated Wetland Series A (100 flags)", "BVW Series B (23 flags)", "Isolated Vegetated Wetland D (6 flags)", "Mean Annual High Water perennial stream"]
+            }
+          }
+        },
+        "recorded_orad": {
+          "type": "object",
+          "required": ["recording_date", "registry_citation", "form_type", "expiration_date"],
+          "properties": {
+            "recording_date": { "type": "string", "format": "date", "example": "2024-12-10" },
+            "registry_citation": { "type": "string", "example": "Plymouth County Registry of Deeds, Book 59527, Page 273 (Doc #78968)" },
+            "form_type": { "type": "string", "example": "WPA Form 4B Order of Resource Area Delineation" },
+            "expiration_date": { "type": "string", "format": "date", "example": "2027-11-04" }
+          }
+        },
+        "watershed_protections": {
+          "type": "object",
+          "required": ["hydrological_tributary", "receiving_basin", "special_designation"],
+          "properties": {
+            "hydrological_tributary": { "type": "string", "example": "Tucker's Swamp and Hockley Run" },
+            "receiving_basin": { "type": "string", "example": "Beal's Cove, Weymouth Back River Estuary" },
+            "special_designation": { "type": "string", "example": "Weymouth Back River Area of Critical Environmental Concern (ACEC, 1982)" }
+          }
+        },
+        "chapter_40b_safe_harbor": {
+          "type": "object",
+          "required": ["underlying_zoning", "shi_percentage", "safe_harbor_statute", "permitting_pathway"],
+          "properties": {
+            "underlying_zoning": { "type": "string", "example": "Official and Open Space District (OO) — multi-family prohibited as of right" },
+            "shi_percentage": { "type": "number", "description": "Hingham Subsidized Housing Inventory percentage", "example": 10.2 },
+            "safe_harbor_statute": { "type": "string", "example": "760 CMR 56.03(3)(a) — Statutory Safe Harbor (>10% SHI threshold achieved)" },
+            "permitting_pathway": { "type": "string", "example": "Negotiated / friendly Comprehensive Permit before Hingham ZBA" },
+            "zba_application_status": { "type": "string", "example": "Pre-application design; no filing submitted as of September 2026" }
+          }
+        }
+      }
+    },
+    "repository_architecture": {
+      "type": "object",
+      "description": "Structural directory segregation policy separating authentic downloaded sources from agent deliverables.",
+      "required": ["partitions", "scrape_purge_policy", "versioning_policy"],
+      "properties": {
+        "partitions": {
+          "type": "object",
+          "required": ["downloaded_sources", "agent_created_deliverables"],
+          "properties": {
+            "downloaded_sources": {
+              "type": "object",
+              "description": "Root partition for 100% authentic downloaded public records.",
+              "properties": {
+                "subdirectories": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "example": ["documents", "architectural_plans", "meeting_records", "audio_recordings", "orad_registry_records"]
+                }
+              }
+            },
+            "agent_created_deliverables": {
+              "type": "object",
+              "description": "Root partition for 100% synthesized reports, briefs, compendiums, and transcripts.",
+              "properties": {
+                "subdirectories": {
+                  "type": "array",
+                  "items": { "type": "string" },
+                  "example": ["executive_reports", "master_compendiums", "companion_transcriptions", "meeting_transcripts", "quality_control_audits", "visual_assets"]
+                }
+              }
+            }
+          }
+        },
+        "scrape_purge_policy": {
+          "type": "object",
+          "required": ["prohibited_content", "purge_standard"],
+          "properties": {
+            "prohibited_content": {
+              "type": "array",
+              "items": { "type": "string" },
+              "example": ["WordPress REST API JSON dumps", "Raw HTML calendar scrapes", "Secondary news articles and press op-eds", "YouTube auto-caption subtitle dumps (.vtt/.en_transcript.txt)"]
+            },
+            "purge_standard": { "type": "string", "example": "Zero unvetted secondary scrapes retained; repository relies strictly on primary legal and municipal sources" }
+          }
+        },
+        "versioning_policy": {
+          "type": "object",
+          "required": ["suffix_standard", "archival_threshold", "retained_active_versions"],
+          "properties": {
+            "suffix_standard": { "type": "string", "example": "Mandatory version suffix on base name before extension (e.g. filename_v1.ext)" },
+            "archival_threshold": { "type": "integer", "description": "Version count triggering automatic archival", "example": 5 },
+            "retained_active_versions": { "type": "integer", "description": "Number of recent versions retained in active directory", "example": 2 },
+            "archive_directory": { "type": "string", "example": "./archive/" }
+          }
+        }
+      }
+    },
+    "governance_and_monitoring": {
+      "type": "object",
+      "description": "Automated daemon monitoring scripts, cron schedules, and quality assurance routines.",
+      "required": ["active_schedules", "automated_scripts", "vocabulary_invariants"],
+      "properties": {
+        "active_schedules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["task_id", "frequency", "cron_expression", "purpose", "is_daemon"],
+            "properties": {
+              "task_id": { "type": "string" },
+              "frequency": { "type": "string" },
+              "cron_expression": { "type": "string" },
+              "purpose": { "type": "string" },
+              "is_daemon": { "type": "boolean" }
+            }
+          },
+          "example": [
+            {
+              "task_id": "task-911",
+              "frequency": "Hourly",
+              "cron_expression": "0 * * * *",
+              "purpose": "Repository verification and git sync status check",
+              "is_daemon": true
+            },
+            {
+              "task_id": "task-1072",
+              "frequency": "Weekly (Monday 9:00 AM)",
+              "cron_expression": "0 9 * * 1",
+              "purpose": "Automated search and download of new municipal filings, HHA records, and registry deeds",
+              "is_daemon": true
+            }
+          ]
+        },
+        "automated_scripts": {
+          "type": "array",
+          "items": { "type": "string" },
+          "example": [
+            "scripts/weekly_monitor_and_download_v1.py",
+            "generate_master_excel_v1.py"
+          ]
+        },
+        "vocabulary_invariants": {
+          "type": "object",
+          "required": ["forbidden_terms"],
+          "properties": {
+            "forbidden_terms": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["forbidden", "rationale", "approved_alternatives"],
+                "properties": {
+                  "forbidden": { "type": "string" },
+                  "rationale": { "type": "string" },
+                  "approved_alternatives": { "type": "array", "items": { "type": "string" } }
+                }
+              },
+              "example": [
+                {
+                  "forbidden": "dossier",
+                  "rationale": "Developer/bureaucratic jargon",
+                  "approved_alternatives": ["summary", "profile", "overview", "brief", "record", "documentation"]
+                },
+                {
+                  "forbidden": "stack",
+                  "rationale": "Developer jargon",
+                  "approved_alternatives": ["combination of technologies", "tool suite", "software environment", "technical foundation"]
+                },
+                {
+                  "forbidden": "seat",
+                  "rationale": "Corporate jargon",
+                  "approved_alternatives": ["employee", "commissioner", "contributor", "role", "position", "capacity"]
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

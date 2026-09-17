@@ -101,8 +101,23 @@ for root, dirs, files in os.walk('.'):
         elif "DOCUMENT_REVIEW_AND_SEPARATION" in f:
             auth = "Forensic Records Auditor"
             law = "M.G.L. c. 66 (Public Records); Repository Governance Policy"
-            summary = "Master audit and separation document cataloging all 153 retained files across downloaded sources vs agent deliverables, documenting the purge of all 41 web scrapes."
+            summary = "Master audit and separation document cataloging all retained files across downloaded sources vs agent deliverables, documenting the purge of all 41 web scrapes."
             v_status = "Master Audit Document (Verified)"
+        elif "project_archive_and_records_schema" in f:
+            auth = "System Architecture & Schema Engineering"
+            law = "JSON Schema Draft 2020-12; Repository Governance Invariants"
+            summary = "Formal machine-readable JSON Schema standardizing project metadata, title chain records, environmental adjudication, repository partitions, and validation rules."
+            v_status = "Formal Technical Schema (Verified)"
+        elif "project_schema_and_architecture" in f:
+            auth = "Lead Technical Architect & Legal Researcher"
+            law = "M.G.L. c. 66; M.G.L. c. 121B; System Architecture Standards"
+            summary = "Comprehensive specification of repository data models, directory structures, validation rules, and the complete 7-dimension Lessons Learned analysis."
+            v_status = "Architecture & Lessons Learned Spec (Verified)"
+        elif "weekly_monitoring_log" in f:
+            auth = "Automated System Monitor"
+            law = "M.G.L. c. 66; Automated Public Records Auditing"
+            summary = "Operational log file tracking weekly automated queries to Hingham municipal agendas, minutes, Registry deeds, and MassDEP filings."
+            v_status = "Operational Monitoring Log (Active)"
         elif "RFP" in f and ext == "PDF":
             auth = "Hingham Housing Authority (James Marathas, ED)"
             law = "M.G.L. c. 30B, § 16; M.G.L. c. 121B"
