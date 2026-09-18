@@ -93,7 +93,11 @@ for root, dirs, files in os.walk('.'):
                 auth = "Hingham Board of Selectmen / HHA / Mass. DHCD"
                 law = "M.G.L. c. 184A, § 3; M.G.L. c. 121B, § 34; Book 09097 Pg 158; Book 51379 Pg 244"
                 summary = "Primary source legal chronology detailing the 1989 deed, 2001 MOU, Feb 26, 2019 Select Board litigation vote (3-0), state DHCD letters, and Sept 7, 2021 HHA rescission vote."
-                v_status = "Prior Version (Superseded by v2)"
+        elif "The_True_Story_and_Evidence" in f:
+            auth = "Primary Municipal Records & Educational Architecture"
+            law = "M.G.L. c. 121B; M.G.L. c. 184A; M.G.L. c. 44, § 7; Plymouth Registry Instruments"
+            summary = "Dedicated 2-page educational guide and evidence ledger for family and community members. Page 1 provides a 1-page unspun narrative essay; Page 2 provides the companion Works Cited mapping every point to primary documents with repository file names."
+            v_status = "Community Educational Guide & Evidence Ledger (Verified)"
         elif "Fact_Sheet_and_Briefing" in f:
             auth = "Hingham Housing Authority / Bohler / Control Point"
             law = "M.G.L. c. 121B; M.G.L. c. 40B; Plymouth Registry Plan 100 of 2001"
