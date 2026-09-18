@@ -56,6 +56,8 @@ for root, dirs, files in os.walk('.'):
                 subcat = "Quality Control Audits"
             elif 'visual_assets' in p:
                 subcat = "Visual Infographics & Timelines"
+            elif 'video_presentation' in p:
+                subcat = "Video Presentations & Narration Decks"
             else:
                 subcat = "Agent Synthesized Work"
         elif p.startswith('timeline_detailed_and_tldr/'):
@@ -106,6 +108,16 @@ for root, dirs, files in os.walk('.'):
             law = "M.G.L. c. 121B; M.G.L. c. 184A; M.G.L. c. 44, § 7; Plymouth Registry Instruments"
             summary = "Comprehensive 37-year timeline paired with plain-English TLDR callouts for every milestone from 1989 through 2026. Clarifies 100 Beal Street vs Bare Cove Park CAL."
             v_status = "Detailed Timeline & TLDR Briefing (Verified)"
+        elif "Presentation" in f or "video_presentation" in p:
+            auth = "Multimedia & AI Video Production"
+            law = "M.G.L. c. 121B; M.G.L. c. 40B; 47 U.S.C. § 613 (Accessibility/Closed Captions)"
+            summary = "Comprehensive 10.09-minute narrated video presentation and slide deck covering the 37-year history, milestones, and covenants of 100 Beal Street."
+            v_status = "Multimedia Presentation (Verified)"
+        elif "VOICE_CLONING" in f or "clone_user_voice" in f:
+            auth = "AI Neural Audio & Voice Synthesis"
+            law = "Open Source License Standards; Local Privacy/Offline Execution"
+            summary = "Technical investigation and runnable pipeline for local zero-shot voice cloning on macOS (F5-TTS, OpenVoice v2, Kokoro, and system TTS)."
+            v_status = "Audio Engineering Architecture (Verified)"
         elif "Fact_Sheet_and_Briefing" in f:
             auth = "Hingham Housing Authority / Bohler / Control Point"
             law = "M.G.L. c. 121B; M.G.L. c. 40B; Plymouth Registry Plan 100 of 2001"

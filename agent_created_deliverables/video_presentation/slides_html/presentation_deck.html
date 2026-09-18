@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+@page {
+    size: 1920px 1080px;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+    background-color: #0b1528;
+    color: #1a202c;
+    width: 1920px;
+}
+.slide {
+    width: 1920px;
+    height: 1080px;
+    page-break-after: always;
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 80px 50px 80px;
+}
+.slide.title-slide {
+    background: linear-gradient(135deg, #0B2265 0%, #06153d 100%);
+    color: #ffffff;
+    justify-content: center;
+    padding: 80px 100px;
+}
+.top-accent-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 12px;
+    background: linear-gradient(90deg, #9E1B32 0%, #D97706 100%);
+}
+.slide-badge {
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    background: #0B2265;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+.slide-header {
+    margin-bottom: 35px;
+}
+.slide-header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #0B2265;
+    line-height: 1.2;
+}
+.slide.title-slide .slide-header h1 {
+    font-size: 56px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+.slide-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #9E1B32;
+    margin-top: 8px;
+}
+.slide.title-slide .slide-header h2 {
+    font-size: 28px;
+    color: #FBBF24;
+}
+.content-grid {
+    display: flex;
+    gap: 40px;
+    flex: 1;
+}
+.card {
+    flex: 1;
+    background: #F8FAFC;
+    border: 2px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 28px 32px;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+.slide.title-slide .card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(251, 191, 36, 0.4);
+    color: #ffffff;
+}
+.card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0B2265;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #CBD5E1;
+}
+.slide.title-slide .card h3 {
+    color: #FBBF24;
+    border-bottom: 1px solid rgba(251, 191, 36, 0.4);
+}
+.card ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.card li {
+    font-size: 19px;
+    line-height: 1.45;
+    color: #334155;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 14px;
+    display: block;
+}
+.card li:last-child {
+    margin-bottom: 0;
+}
+.slide.title-slide .card li {
+    color: #E2E8F0;
+    font-size: 20px;
+    line-height: 1.45;
+    margin-bottom: 16px;
+    padding-left: 28px;
+}
+.slide.title-slide .card li:last-child {
+    margin-bottom: 0;
+}
+.card li::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    top: -1px;
+    color: #9E1B32;
+    font-size: 26px;
+    line-height: 1;
+}
+.slide.title-slide .card li::before {
+    color: #FBBF24;
+}
+.card li strong {
+    color: #0B2265;
+}
+.slide.title-slide .card li strong {
+    color: #ffffff;
+}
+
+/* Image layout for Slide 14 */
+.image-layout-grid {
+    display: flex;
+    gap: 36px;
+    flex: 1;
+}
+.image-container {
+    flex: 1.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0B2265;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 3px solid #CBD5E1;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Comparison Table for Slide 15 */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+.comparison-table th {
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+.comparison-table th:nth-child(1) { width: 22%; background: #0B2265; color: #ffffff; }
+.comparison-table th:nth-child(2) { width: 39%; background: #047857; color: #ffffff; text-align: center; }
+.comparison-table th:nth-child(3) { width: 39%; background: #9E1B32; color: #ffffff; text-align: center; }
+
+.comparison-table td {
+    padding: 14px 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    border-bottom: 1px solid #E2E8F0;
+    color: #1E293B;
+}
+.comparison-table td:nth-child(1) { font-weight: 600; background: #F8FAFC; color: #0B2265; }
+.comparison-table td:nth-child(2) { background: #F0FDF4; font-weight: 600; text-align: center; }
+.comparison-table td:nth-child(3) { background: #FEF2F2; font-weight: 600; text-align: center; }
+
+.footer-bar {
+    position: absolute;
+    bottom: 25px;
+    left: 80px;
+    right: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #64748B;
+    border-top: 1px solid #E2E8F0;
+    padding-top: 10px;
+}
+.slide.title-slide .footer-bar {
+    border-top: 1px solid rgba(255,255,255,0.15);
+    color: #94A3B8;
+}
+</style>
+</head>
+<body>
+
+<div class="slide title-slide">
+<div class="top-accent-bar"></div>
+<div class="slide-header">
+<h1>100 Beal Street: The 37-Year Journey</h1>
+<h2>From Naval Munitions Bunkers to State-Protected Senior Affordable Housing (1989–2026)</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Project Overview & Scope</h3><ul>
+<li><strong>Location:</strong> 100 Beal Street, Hingham, MA (School Tract II)</li>
+<li><strong>Record Property Owner:</strong> Hingham Housing Authority (Independent State Entity)</li>
+<li><strong>Proposed Development:</strong> 68-Unit Senior Affordable Rental Residence (Ages 62+)</li>
+<li><strong>Selected Developer:</strong> Peabody Properties / AHSC (99-Year Ground Lease)</li>
+<li><strong>Municipal Taxpayer Cost:</strong> Exactly $0 in Town Borrowing or Taxpayer Debt</li>
+</ul></div>
+<div class="card"><h3>Chronological Milestones</h3><ul>
+<li><strong>1989:</strong> Town deeds 15 acres with 30-year adolescent care reverter</li>
+<li><strong>2001:</strong> WWII naval munitions bunkers demolished; 8-acre Lot 2 created</li>
+<li><strong>2006:</strong> Town Meeting 2/3 vote mandates senior affordable housing</li>
+<li><strong>2019:</strong> Select Board 3–0 litigation vote; State DHCD statutory transfer block</li>
+<li><strong>2021:</strong> Housing Authority votes 4–0 to permanently retain land for housing</li>
+<li><strong>2026:</strong> Project fully active and permitted under long-term ground lease</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 02 / 16</div>
+<div class="slide-header">
+<h1>April 1989: The Deed & The 30-Year Reverter</h1>
+<h2>Town Conveys 15.014 Acres of Surplus Military Land to HHA</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Execution Date:</strong> March 7, 1989 | <strong>Recording Date:</strong> April 21, 1989</li>
+<li><strong>Registry Citation:</strong> Plymouth County Registry of Deeds, Book 09097, Page 158 (Doc #29758)</li>
+<li><strong>Grantor:</strong> Inhabitants of the Town of Hingham</li>
+<li><strong>Grantee:</strong> Hingham Housing Authority</li>
+<li><strong>Stated Consideration:</strong> $45,751 for 15.014-Acre School Tract II</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Specific Use Restriction:</strong> Dedicated solely for adolescent residential facility</li>
+<li><strong>Right of Re-Entry:</strong> Town retained right to enter if youth use ceased</li>
+<li><strong>The 30-Year Limitation Clause (Page 160):</strong> Deed expressly dictates re-entry terminates after thirty years pursuant to M.G.L. c. 184A, § 3</li>
+<li><strong>Expiration Deadline:</strong> March 7, 2019 (Exactly 30 calendar years)</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 03 / 16</div>
+<div class="slide-header">
+<h1>1990 to Present: Continuous Public Service</h1>
+<h2>The 12-Bed Adolescent Facility Operates Without Interruption</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Facility Footprint:</strong> 12-bed group home constructed on dedicated 2.0-acre parcel fronting Beal Street</li>
+<li><strong>Funding Program:</strong> Commonwealth Chapter 689 specialized public housing funds</li>
+<li><strong>Operational Oversight:</strong> State youth services contract and licensed child care provider</li>
+<li><strong>Continuous Public Service:</strong> Over 35 consecutive years of continuous operation</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Legal Standard:</strong> Re-entry required cessation of adolescent residential use</li>
+<li><strong>Zero Default:</strong> Facility never ceased operations or abandoned its mission</li>
+<li><strong>State Encumbrance:</strong> Chapter 689 funding attached permanent state public housing covenants</li>
+<li><strong>Unclouded Title:</strong> The Town never had lawful grounds to trigger re-entry during the 30-year window</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 04 / 16</div>
+<div class="slide-header">
+<h1>June 2001: Demolition, Remediation & Division</h1>
+<h2>WWII Munitions Bunkers Cleared; 8-Acre Surplus Plateau Created</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Naval History:</strong> Interior 13 acres held abandoned WWII ammunition bunkers and berms</li>
+<li><strong>Environmental Cleanup:</strong> Town funded demolition of structures and asbestos/soil remediation</li>
+<li><strong>Cooperative Agreement:</strong> Town and HHA execute administrative Memorandum of Understanding</li>
+<li><strong>Boundary Survey:</strong> Gale Associates prepares formal division survey</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Recorded Instrument:</strong> Plan 100 of 2001 (Plymouth Plan Book 44, Page 412)</li>
+<li><strong>Lot 1 (2.000 Acres):</strong> Active adolescent group home with dedicated Beal Street frontage</li>
+<li><strong>Lot 2 (8.020 Acres):</strong> Remediated, buildable upland plateau with direct Beal Street access</li>
+<li><strong>Milestone Result:</strong> Created clean, separate building lot for future public housing needs</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 05 / 16</div>
+<div class="slide-header">
+<h1>May 2006: Town Meeting Mandates Senior Housing</h1>
+<h2>Declared 2/3 Supermajority Authorizes Deed Release for Affordable Housing</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Legislative Assembly:</strong> Hingham Annual Town Meeting (May 1, 2006)</li>
+<li><strong>Warrant Article 38:</strong> Sponsored to unlock Lot 2 surplus plateau for senior housing</li>
+<li><strong>Voting Result:</strong> Declared two-thirds supermajority vote in favor by Hingham voters</li>
+<li><strong>Certified Seal:</strong> Attested by Town Clerk Eileen A. McCracken</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Enacted Text:</strong> Authorized Selectmen to amend 1989 deed restriction to permit affordable housing</li>
+<li><strong>Democratic Will:</strong> Clear democratic mandate dedicating parcel to senior community living</li>
+<li><strong>The Administrative Breakdown:</strong> Town Hall never executed or recorded the amended deed release</li>
+<li><strong>Decade-Long Oversight:</strong> Omission went unnoticed in municipal records for over ten years</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 06 / 16</div>
+<div class="slide-header">
+<h1>2017–2018: The Unexecuted Deed Resurfaces</h1>
+<h2>Beal Street Due Diligence Reveals the Unrecorded Release</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Title Rediscovery:</strong> Town Counsel Susan Murphy discovers 2006 deed release was never recorded</li>
+<li><strong>Selectmen Meeting Jan 30, 2018:</strong> Selectman Karen Johnson details 2001 bunker remediation history</li>
+<li><strong>Selectmen Meeting Feb 13, 2018:</strong> HHA Chair Bob Keys requests review of restrictions and covenants</li>
+<li><strong>Town Position:</strong> Board of Selectmen argues 8 acres should belong to Town due to remediation funding</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Corporate Independence:</strong> Housing Authority is an independent public body under state law</li>
+<li><strong>Statutory Mission:</strong> HHA holds property for affordable housing, not general municipal real estate</li>
+<li><strong>Board Resistance:</strong> HHA commissioners vote against voluntary conveyance back to municipal hall</li>
+<li><strong>Escalating Impasse:</strong> Board of Selectmen prepares legal strategy in executive session</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 07 / 16</div>
+<div class="slide-header">
+<h1>February 2019: The 30-Year Deadline & Lawsuit Vote</h1>
+<h2>Select Board Votes 3–0 to Sue Housing Authority Nine Days Before Deadline</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>30-Year Expiration:</strong> March 7, 2019 (Exactly 30 years from March 7, 1989 execution)</li>
+<li><strong>Legal Expiration Risk:</strong> Town Counsel advises right of re-entry extinguishes forever on Day 30</li>
+<li><strong>Executive Session:</strong> February 26, 2019 at 6:45 PM (Nine days before statutory expiration)</li>
+<li><strong>Public Reconvening:</strong> Board returns to open session at 7:00 PM (Chairman Paul Healey presiding)</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>The Motion:</strong> Chair Healey moves to file litigation regarding enforcement of agreement at 100 Beal</li>
+<li><strong>Second:</strong> Seconded by Selectman Karen Johnson</li>
+<li><strong>Vote Tally:</strong> Passed 3–0 unanimous (Healey, Johnson, Power)</li>
+<li><strong>Litigation Authorized:</strong> Town of Hingham authorizes formal lawsuit against Hingham Housing Authority</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 08 / 16</div>
+<div class="slide-header">
+<h1>June 2019: The Surrender Under Litigation Threat</h1>
+<h2>Housing Authority Initially Votes to Transfer 19 Acres to Town Hall</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Emergency Meeting:</strong> June 5, 2019 Special Meeting of HHA Board of Commissioners</li>
+<li><strong>Severe Legal Pressure:</strong> Confronted by active 3–0 litigation vote from Board of Selectmen</li>
+<li><strong>The Transfer Vote:</strong> HHA Board votes to approve transferring ~19 acres back to municipal control</li>
+<li><strong>Scope of Motion:</strong> Surplus Lot 2 plateau and adjacent Town-associated parcel</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>The Illusion of Finality:</strong> Town Hall believed the property dispute had been settled</li>
+<li><strong>Statutory Constraints:</strong> Local housing authorities cannot convey public housing property unilaterally</li>
+<li><strong>State Financial Interest:</strong> Chapter 689 funding triggered mandatory Commonwealth supervision</li>
+<li><strong>Imminent State Reaction:</strong> State regulatory authorities intervene to safeguard the asset</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 09 / 16</div>
+<div class="slide-header">
+<h1>Summer 2019: The State Steps In</h1>
+<h2>Massachusetts DHCD Enforces Statutory Protections on Public Housing Land</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Governing Authority:</strong> Massachusetts General Laws Chapter 121B (Housing & Urban Renewal)</li>
+<li><strong>Legal Status:</strong> Housing authorities are independent public bodies corporate, not Town departments</li>
+<li><strong>Jurisdiction:</strong> Board of Selectmen has zero statutory authority to seize or command housing assets</li>
+<li><strong>Public Purpose:</strong> Land dedicated to low-income housing cannot be alienated for general municipal use</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Supervisory Regulator:</strong> Massachusetts DHCD (Associate Director Amy Stitely)</li>
+<li><strong>Statutory Bar (M.G.L. c. 121B, § 34):</strong> Public housing land cannot be transferred without written state approval</li>
+<li><strong>Regulatory Letters:</strong> Issued April 19 & June 26, 2019 to HHA and Town Counsel</li>
+<li><strong>State Decision:</strong> DHCD formally refuses to consent to municipal recapture</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 10 / 16</div>
+<div class="slide-header">
+<h1>July 2019: The Legal Lock on Title</h1>
+<h2>Commonwealth Records Notice of Statutory Transfer Restriction</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Recording Timestamp:</strong> July 18, 2019 at 1:44 PM</li>
+<li><strong>Registry Citation:</strong> Plymouth County Registry of Deeds, Book 51379, Page 244 (Doc #55967)</li>
+<li><strong>Grantor/Regulator:</strong> Commonwealth of Massachusetts DHCD</li>
+<li><strong>Encumbered Real Estate:</strong> Assessor Map 58, Block 0, Lot 23 (100 Beal Street)</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Public Notice:</strong> Formally notifies title examiners and municipal attorneys of Chapter 121B, § 34 restriction</li>
+<li><strong>Legal Nullity:</strong> Any deed executed without DHCD written approval is void as a matter of state law</li>
+<li><strong>ALTA Survey:</strong> Explicitly recognized as Schedule B, Item 5 encumbrance on 2024 boundary survey</li>
+<li><strong>Permanent Protection:</strong> Land permanently protected for public housing purposes</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 11 / 16</div>
+<div class="slide-header">
+<h1>September 2021: The Unanimous Rescission Vote</h1>
+<h2>Housing Authority Formally Cancels 2019 Transfer Motion</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Assembly:</strong> September 7, 2021 Regular Meeting at 30 Thaxter Street</li>
+<li><strong>Legal Concurrence:</strong> Backed by formal DHCD correspondence and specialized municipal counsel</li>
+<li><strong>The Motion:</strong> Commissioner O’Meara moves to rescind the June 5, 2019 transfer motion</li>
+<li><strong>Second:</strong> Seconded by Commissioner Lauter</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Roll Call Vote:</strong> Commissioners Suchecki, O'Meara, Lauter, Buhr all vote AYE</li>
+<li><strong>Tally:</strong> Unanimous 4–0 vote to rescind</li>
+<li><strong>Official Minute Ruling:</strong> 'That Motion is now rescinded and the land shall remain in the ownership of the HHA'</li>
+<li><strong>Final Conclusion:</strong> Brought an absolute, permanent end to Town Hall's recapture effort</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 12 / 16</div>
+<div class="slide-header">
+<h1>December 2024: Verified Environmental Stewardship</h1>
+<h2>Conservation Commission Records MassDEP ORAD Protecting Tucker's Swamp</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>MassDEP Docket:</strong> MassDEP File No. 034-1509</li>
+<li><strong>Hearing:</strong> November 4, 2024 before Hingham Conservation Commission</li>
+<li><strong>Roll Call:</strong> Passed 5–0 unanimous (Nielsen, Mosher, Roby, Villanova, Freeman)</li>
+<li><strong>Recorded Instrument:</strong> Plymouth Registry Book 59527, Page 273 (Doc #78968, Dec 10, 2024)</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>155+ Delineated Flags:</strong> Certified boundary survey by Lucas Environmental, LLC</li>
+<li><strong>Protected Resources:</strong> 3 Bordering Vegetated Wetlands, 2 Isolated Wetlands, vernal pool</li>
+<li><strong>ACEC Buffer Protection:</strong> Safeguards Tucker's Swamp and Weymouth Back River watershed</li>
+<li><strong>Verified Plateau:</strong> Confirms Lot B contains expansive, high-and-dry buildable upland</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 13 / 16</div>
+<div class="slide-header">
+<h1>August 2025: Peabody Properties Awarded Project</h1>
+<h2>68 Senior Rental Apartments Under a 99-Year Ground Lease</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>Procurement Package:</strong> 155-Page RFP issued April 16, 2025 under M.G.L. c. 30B</li>
+<li><strong>Award Meeting:</strong> August 12, 2025 HHA meeting; passed 4–0 unanimous roll call</li>
+<li><strong>Designated Developer:</strong> Peabody Properties / Affordable Housing Services Corp. (AHSC)</li>
+<li><strong>Target Demographic:</strong> 68 Rental Apartments for Seniors 62 and older</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>99-Year Ground Lease:</strong> Land fee ownership stays permanently with Hingham Housing Authority</li>
+<li><strong>Upfront Consideration:</strong> Developer pays $500,000 upfront lease fee to Housing Authority</li>
+<li><strong>Private/Tax-Credit Financing:</strong> 100% financed through private equity and affordable tax credits</li>
+<li><strong>Taxpayer Obligation:</strong> Exactly $0 in municipal borrowing or Town general fund debt</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 14 / 16</div>
+<div class="slide-header">
+<h1>Architectural Vision: Modest, Sustainable & Senior-Focused</h1>
+<h2>Universal Design, Internal Courtyard, and Low-Impact Civil Engineering</h2>
+</div>
+<div class="image-layout-grid">
+<div class="image-container"><img src="file:///Volumes/BLK4TB/Housing Topics/Beal Street Senior Affordable Housing/agent_created_deliverables/video_presentation/assets/weston_front.png" alt="Weston & Sampson 68-Unit Senior Residence Architectural Rendering" /></div>
+<div class="card" style="flex: 1; padding: 24px 28px;">
+<h3>Senior Universal Design & Civil Engineering</h3>
+<ul>
+<li style="font-size: 18px; margin-bottom: 12px;"><strong>Architectural Scale:</strong> Modest 3-story wood-frame design complementing Hingham neighborhoods</li>
+<li style="font-size: 18px; margin-bottom: 12px;"><strong>Universal Accessibility:</strong> 100% single-floor barrier-free living, wide corridors, dual elevators</li>
+<li style="font-size: 18px; margin-bottom: 12px;"><strong>Community Amenities:</strong> Multi-purpose hall, wellness exam room, outdoor walking paths, gardens</li>
+<li style="font-size: 18px; margin-bottom: 12px;"><strong>Environmental Buffers:</strong> 50-foot undisturbed natural vegetative tree buffer to all abutters</li>
+<li style="font-size: 18px; margin-bottom: 12px;"><strong>Stormwater Innovation:</strong> Advanced bioretention swales filtering 100% of rainwater on-site</li>
+</ul></div></div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 15 / 16</div>
+<div class="slide-header">
+<h1>Clearing Up the Town Rumor: CAL vs. 100 Beal Street</h1>
+<h2>The Defeated Project Was Bare Cove Park CAL; 100 Beal Street Is Fully Active</h2>
+</div>
+<table class="comparison-table">
+<thead><tr><th>Feature / Question</th><th>100 Beal Street Senior Affordable Housing</th><th>Bare Cove Park Center for Active Living (CAL)</th></tr></thead><tbody>
+<tr><td>Project Nature</td><td>68-Unit Residential Housing for Seniors 62+</td><td>Daytime Municipal Senior Activities Facility</td></tr>
+<tr><td>Land Ownership</td><td>Hingham Housing Authority (Independent State Entity)</td><td>Inhabitants of the Town of Hingham (Municipal Park)</td></tr>
+<tr><td>Project Location</td><td>100 Beal Street (Lot B Upland Plateau)</td><td>Bare Cove Park Drive (Inside Bare Cove Park boundary)</td></tr>
+<tr><td>Cost to Taxpayers</td><td>$0 Town Borrowing / $0 Municipal Debt</td><td>$29,930,000 Municipal Debt Exclusion Borrowing</td></tr>
+<tr><td>Town Meeting Action</td><td>Never voted down or rejected at Town Meeting</td><td>Defeated at Town Meeting on April 27, 2026 (Art. 12)</td></tr>
+<tr><td>Vote Outcome</td><td>Passed 2/3 Supermajority in 2006 (Art. 38)</td><td>Failed 2/3 Debt Supermajority (510 Yes, 470 No / 52%)</td></tr>
+<tr><td>Current Status</td><td>ACTIVE & PERMITTED (Advancing Under 99-Yr Lease)</td><td>DEFEATED & Stalled Due to Failed Borrowing Vote</td></tr>
+</tbody></table>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+<div class="slide">
+<div class="top-accent-bar"></div>
+<div class="slide-badge">SLIDE 16 / 16</div>
+<div class="slide-header">
+<h1>The Horizon: Permitting, Groundbreaking & Legacy</h1>
+<h2>Comprehensive Permit, Financing Milestones, and Permanent Affordability</h2>
+</div>
+<div class="content-grid">
+<div class="card"><h3>Primary Historical Facts</h3><ul>
+<li><strong>August 2026:</strong> Land Disposition & Development Agreement review with Peabody</li>
+<li><strong>Fall 2026–2027:</strong> Chapter 40B Comprehensive Permit review before Zoning Board of Appeals</li>
+<li><strong>2027:</strong> Allocation of State/Federal Affordable Housing Tax Credits (EOHLC / MassHousing)</li>
+<li><strong>2028:</strong> Scheduled groundbreaking on 68 units of senior affordable housing</li>
+</ul></div>
+<div class="card"><h3>Documentary & Legal Impact</h3><ul>
+<li><strong>Age in Place with Dignity:</strong> Enables lifelong Hingham residents to remain in the community</li>
+<li><strong>Local Preference:</strong> Housing preference established for eligible Hingham military veterans</li>
+<li><strong>Permanent Public Covenants:</strong> Land remains under public housing authority title forever</li>
+<li><strong>Fulfilling Democratic Will:</strong> Implements the vision voted by Hingham citizens twenty years ago</li>
+</ul></div>
+</div>
+<div class="footer-bar">
+<span>100 Beal Street Senior Affordable Housing • Historical Briefing</span>
+<span>Hingham Housing Authority • 68 Senior Units • 99-Year Lease</span>
+</div>
+</div>
+
+</body></html>
