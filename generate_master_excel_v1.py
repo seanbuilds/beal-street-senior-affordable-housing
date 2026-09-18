@@ -58,6 +58,9 @@ for root, dirs, files in os.walk('.'):
                 subcat = "Visual Infographics & Timelines"
             else:
                 subcat = "Agent Synthesized Work"
+        elif p.startswith('timeline_detailed_and_tldr/'):
+            top_cat = "Agent-Created Deliverable"
+            subcat = "Detailed Timeline & Plain-English TLDR"
         else:
             top_cat = "Repository Documentation & Index"
             subcat = "Repository Index & Governance"
@@ -98,6 +101,11 @@ for root, dirs, files in os.walk('.'):
             law = "M.G.L. c. 121B; M.G.L. c. 184A; M.G.L. c. 44, § 7; Plymouth Registry Instruments"
             summary = "Dedicated 2-page educational guide and evidence ledger for family and community members. Page 1 provides a 1-page unspun narrative essay; Page 2 provides the companion Works Cited mapping every point to primary documents with repository file names."
             v_status = "Community Educational Guide & Evidence Ledger (Verified)"
+        elif "Detailed_Timeline_and_TLDR" in f:
+            auth = "Primary Municipal Records & Plain-English Educational Architecture"
+            law = "M.G.L. c. 121B; M.G.L. c. 184A; M.G.L. c. 44, § 7; Plymouth Registry Instruments"
+            summary = "Comprehensive 37-year timeline paired with plain-English TLDR callouts for every milestone from 1989 through 2026. Clarifies 100 Beal Street vs Bare Cove Park CAL."
+            v_status = "Detailed Timeline & TLDR Briefing (Verified)"
         elif "Fact_Sheet_and_Briefing" in f:
             auth = "Hingham Housing Authority / Bohler / Control Point"
             law = "M.G.L. c. 121B; M.G.L. c. 40B; Plymouth Registry Plan 100 of 2001"
