@@ -83,7 +83,14 @@ for root, dirs, files in os.walk('.'):
         v_status = "Verified"
 
         # Specific file metadata enrichment
-        if "CAL_Comprehensive_Report" in f:
+        if "ALL_CODE_AND_DOCUMENTS" in f:
+            top_cat = "Master Compendium & Archive"
+            subcat = "Authoritative Single-File Code & Document Compendium"
+            auth = "Lead Systems Architect & Forensic Records Examiner"
+            law = "M.G.L. c. 121B; M.G.L. c. 184A; M.G.L. c. 40B; Plymouth Registry Instruments"
+            summary = "Authoritative single-file repository compendium containing all core documentation, legal analysis, primary source transcripts, system schemas, and production source code with embedded research."
+            v_status = "Authoritative Single-File Master Compendium (Verified)"
+        elif "CAL_Comprehensive_Report" in f:
             auth = "Town of Hingham / CALBC / EDM Studio"
             law = "M.G.L. c. 44, § 7; Mass. Const. Amend. Art. 97; 2026 ATM Art. 12"
             summary = "Comprehensive 12-section investigation of the Center for Active Living at Bare Cove Park Drive and its April 27, 2026 Town Meeting defeat (510 Yes to 470 No; failed 2/3 debt supermajority)."
