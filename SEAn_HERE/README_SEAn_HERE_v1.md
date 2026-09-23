@@ -25,7 +25,9 @@ This dedicated directory brings together all the custom report files, plain-Engl
 | **`SEAn_HERE_06_Authoritative_Compendium_All_Files_and_Research_v1.md`** | MD | **The Giant Single-File Master Repository:** 9,158 lines, 523 KB containing all code, all 24 project source files, and 14 deep-dive research chapters. |
 | **`SEAn_HERE_07_Center_for_Active_Living_CAL_Comprehensive_Report_v1.pdf`** | PDF | **The CAL Bare Cove Park Report:** Explains why the $29.93M senior center was defeated on Article 12 at 2026 Town Meeting, and why it is completely separate from 100 Beal Street. |
 | **`SEAn_HERE_08_Executive_Fact_Sheet_and_Briefing_v3.pdf`** | PDF | **Executive Briefing Sheet:** 3-page high-level fact sheet summarizing zoning, financing, site civil parameters, and permitting status. |
-| **`SEAn_HERE_Master_File_Inventory_v1.xlsx`** | XLSX | **Master File Spreadsheet:** Searchable catalog of all 335+ files across the entire project repository. |
+| **`SEAn_HERE_09_One_Page_Timeline_Status_and_Components_v1.pdf`** | PDF | **Printable 1-Page Master Briefing:** Exactly 1 page (8.5x11) combining the 37-year chronological timeline (1989–2026), where we are today (September 2026 status snapshot), and all 6 core project architecture components. |
+| **`SEAn_HERE_09_One_Page_Timeline_Status_and_Components_v1.md`** | MD | Markdown source for Document 09. |
+| **`SEAn_HERE_Master_File_Inventory_v1.xlsx`** | XLSX | **Master File Spreadsheet:** Searchable catalog of all files across the entire project repository. |
 
 ---
 
